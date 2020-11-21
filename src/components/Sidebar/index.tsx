@@ -9,7 +9,7 @@ export interface ISidebarProps {
 }
 
 export default ({sorts, chosenSort, setChosenSort}: ISidebarProps) => (
-    <div className="Sidebar">
+    <aside className="sidebar">
         <div className="button-container">
             {
                 sorts.map(
@@ -25,5 +25,5 @@ export default ({sorts, chosenSort, setChosenSort}: ISidebarProps) => (
                 )
             }
         </div>
-    </div>
+    </aside>
 );

@@ -6,6 +6,9 @@
   "devDependencies": {
     "@parcel/transformer-css": "^2.0.0-alpha.3",
     "@parcel/transformer-postcss": "^2.0.0-alpha.3",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.14.0",
     "parcel": "^2.0.0-beta.1",
     "sass": "^1.29.0"
   },
@@ -19,6 +22,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "serve": "ts-node serve.ts"
+    "serve": "ts-node serve.ts",
+    "lint": "eslint ."
   }
 }

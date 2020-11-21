@@ -22,10 +22,11 @@ export default ({
                         date
                     }
                 }: ICardProps) => {
+
     const [isShowingMoreInfo, setIsShowingMoreInfo] = useState(false);
 
     return (
-        <div>
+        <section>
             <div className="card">
                 <img
                     src={`${config.ASSET_URL}${image}`}
@@ -91,7 +92,7 @@ export default ({
                     software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
-        </div>
+        </section>
 
     );
 };

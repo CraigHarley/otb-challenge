@@ -16,7 +16,7 @@ export default () => {
                 sorts={sorts}
             />
 
-            <div className="Content">
+            <article className="content">
                 {
                     hotels
                         .sort(
@@ -26,7 +26,7 @@ export default () => {
                         )
                         .map((hotel, key) => <Card hotel={hotel} key={key}/>)
                 }
-            </div>
+            </article>
         </div>
     );
 };
