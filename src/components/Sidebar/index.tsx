@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
 import {ISort} from "../../types";
 import {SortTypes} from "../../types/enums";
 
@@ -8,7 +8,7 @@ export interface ISidebarProps {
     sorts: ISort[];
 }
 
-export default ({sorts, chosenSort, setChosenSort}: ISidebarProps): React.ReactNode => (
+export default ({sorts, chosenSort, setChosenSort}: ISidebarProps): ReactElement => (
     <aside className="sidebar">
         <div className="button-container">
             {

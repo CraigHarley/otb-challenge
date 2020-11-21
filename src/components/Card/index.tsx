@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {ReactElement, useState} from 'react';
 import {format} from 'date-fns';
 
 import config from "../../config"
@@ -21,7 +21,7 @@ export default ({
                         stars,
                         date
                     }
-                }: ICardProps): React.ReactNode => {
+                }: ICardProps): ReactElement => {
 
     const [isShowingMoreInfo, setIsShowingMoreInfo] = useState(false);
 

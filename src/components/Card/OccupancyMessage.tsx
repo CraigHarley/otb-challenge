@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
 
 export interface IOccupancyMessageProps {
     adults: number;
@@ -6,7 +6,7 @@ export interface IOccupancyMessageProps {
     infants: number;
 }
 
-export default ({adults, children, infants}: IOccupancyMessageProps): React.ReactNode => {
+export default ({adults, children, infants}: IOccupancyMessageProps): ReactElement => {
     if (adults && !children && !infants) {
         return (
             <span>
@@ -39,21 +39,20 @@ export default ({adults, children, infants}: IOccupancyMessageProps): React.Reac
         );
     }
 
-    // todo make this impossible with types.
     throw Error("Can't have a holiday with no adults.");
 }
 
-const adultMessage = (count: number): React.ReactNode => (
+const adultMessage = (count: number): ReactElement => (
     <>
         <strong>{count}</strong> {pluralize('adult', count)}
     </>
 );
-const childMessage = (count: number): React.ReactNode => (
+const childMessage = (count: number): ReactElement => (
     <>
         <strong>{count}</strong> {pluralizeChildren(count)}
     </>
 );
-const infantMessage = (count: number): React.ReactNode => (
+const infantMessage = (count: number): ReactElement => (
     <>
         <strong>{count}</strong> {pluralize('infant', count)}
     </>

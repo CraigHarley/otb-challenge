@@ -1,4 +1,5 @@
 import {SortTypes} from "./enums";
+import {ReactElement} from "react";
 
 export interface IHotel {
     name: string;
@@ -17,7 +18,7 @@ export interface ISort {
     name: string;
     type: SortTypes;
     func: (a: IHotel, b: IHotel) => number;
-    icon: string;
+    icon: ReactElement;
 }
 
 export interface IListable {
