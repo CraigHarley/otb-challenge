@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/assets/background.png");
+  background-position-y: -300px; // todo relative value
+  background-repeat: repeat-x;
+  background-color: rgb(251, 252, 250);
+  font-family: "Roboto Light", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+  grid-template-areas: "Sidebar Content Content Content";
+}
+
+.float-right {
+  float: right;
+}

@@ -1,6 +1,10 @@
 import {SortTypes} from "./enums";
 import {ReactElement} from "react";
 
+export interface IAppConfig {
+    ASSET_URL: string;
+}
+
 export interface IHotel {
     name: string;
     region: string;
