@@ -7,21 +7,45 @@ export const sorts: ISort[] = [
     {
         name: 'alphabetically',
         type: SortTypes.ALPHA,
-        func: new Function(), // todo
+        func: (a, b) => {
+            if (a.name < b.name) {
+                return -1;
+            }
+            if (a.name > b.name) {
+                return 1;
+            }
+            return 0;
+        },
         icon: <i className="float-right fas fa-sort-alpha-down"/>
     },
 
     {
         name: 'price',
         type: SortTypes.PRICE,
-        func: new Function(), // todo
+        func: (a, b) => {
+            if (a.price < b.price) {
+                return -1;
+            }
+            if (a.price > b.price) {
+                return 1;
+            }
+            return 0;
+        },
         icon: <i className="float-right fas fa-pound-sign"/>
     },
 
     {
         name: 'star rating',
         type: SortTypes.STARS,
-        func: new Function(), // todo
+        func: (a, b) => {
+            if (a.stars < b.stars) {
+                return -1;
+            }
+            if (a.stars > b.stars) {
+                return 1;
+            }
+            return 0;
+        },
         icon: <i className="float-right fas fa-star"/>
     },
 ]

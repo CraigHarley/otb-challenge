@@ -16,7 +16,7 @@ export interface IHotel {
 export interface ISort {
     name: string;
     type: SortTypes;
-    func: Function;
+    func: (a: IHotel, b: IHotel) => number;
     icon: string;
 }
 

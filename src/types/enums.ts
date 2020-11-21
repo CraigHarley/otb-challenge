@@ -3,8 +3,3 @@ export enum SortTypes {
     PRICE,
     STARS
 }
-
-export enum SortDirections {
-    UP = 1,
-    DOWN = -1,
-}
