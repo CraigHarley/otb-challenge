@@ -6,7 +6,7 @@ export interface IOccupancyMessageProps {
     infants: number;
 }
 
-export default ({adults, children, infants}: IOccupancyMessageProps) => {
+export default ({adults, children, infants}: IOccupancyMessageProps): React.ReactNode => {
     if (adults && !children && !infants) {
         return (
             <span>
@@ -43,17 +43,17 @@ export default ({adults, children, infants}: IOccupancyMessageProps) => {
     throw Error("Can't have a holiday with no adults.");
 }
 
-const adultMessage = (count: number) => (
+const adultMessage = (count: number): React.ReactNode => (
     <>
         <strong>{count}</strong> {pluralize('adult', count)}
     </>
 );
-const childMessage = (count: number) => (
+const childMessage = (count: number): React.ReactNode => (
     <>
         <strong>{count}</strong> {pluralizeChildren(count)}
     </>
 );
-const infantMessage = (count: number) => (
+const infantMessage = (count: number): React.ReactNode => (
     <>
         <strong>{count}</strong> {pluralize('infant', count)}
     </>

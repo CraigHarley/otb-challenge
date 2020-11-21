@@ -7,26 +7,26 @@ export const sorts: ISort[] = [
     {
         name: 'alphabetically',
         type: SortTypes.ALPHA,
-        func: (a, b) => sort(SortTypes.ALPHA, a, b, SortDirections.ASC),
+        func: (a: IHotel, b: IHotel): number => sort(SortTypes.ALPHA, a, b, SortDirections.ASC),
         icon: <i className="float-right fas fa-sort-alpha-down"/>
     },
 
     {
         name: 'by price',
         type: SortTypes.PRICE,
-        func: (a, b) => sort(SortTypes.PRICE, a, b, SortDirections.ASC),
+        func: (a: IHotel, b: IHotel): number => sort(SortTypes.PRICE, a, b, SortDirections.ASC),
         icon: <i className="float-right fas fa-pound-sign"/>
     },
 
     {
         name: 'by star rating',
         type: SortTypes.STARS,
-        func: (a, b) => sort(SortTypes.STARS, a, b, SortDirections.DESC),
+        func: (a: IHotel, b: IHotel): number => sort(SortTypes.STARS, a, b, SortDirections.DESC),
         icon: <i className="float-right fas fa-star"/>
     },
 ]
 
-const sort = (key: SortTypes, a: IHotel, b: IHotel, direction: SortDirections) => {
+const sort = (key: SortTypes, a: IHotel, b: IHotel, direction: SortDirections): number => {
     if (a[key] > b[key]) {
         return direction;
     }

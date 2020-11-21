@@ -5,7 +5,7 @@ import {hotels, sorts} from "../../models";
 import Sidebar from "../Sidebar";
 import Card from "../Card";
 
-export default () => {
+export default (): React.ReactNode => {
     const [chosenSort, setChosenSort] = useState(SortTypes.ALPHA);
 
     return (

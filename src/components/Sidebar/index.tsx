@@ -3,12 +3,12 @@ import {ISort} from "../../types";
 import {SortTypes} from "../../types/enums";
 
 export interface ISidebarProps {
-    setChosenSort: Function;
+    setChosenSort: (sort: SortTypes) => void;
     chosenSort: SortTypes;
     sorts: ISort[];
 }
 
-export default ({sorts, chosenSort, setChosenSort}: ISidebarProps) => (
+export default ({sorts, chosenSort, setChosenSort}: ISidebarProps): React.ReactNode => (
     <aside className="sidebar">
         <div className="button-container">
             {

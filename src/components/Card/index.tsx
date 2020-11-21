@@ -21,7 +21,7 @@ export default ({
                         stars,
                         date
                     }
-                }: ICardProps) => {
+                }: ICardProps): React.ReactNode => {
 
     const [isShowingMoreInfo, setIsShowingMoreInfo] = useState(false);
 
