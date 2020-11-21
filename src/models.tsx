@@ -12,14 +12,14 @@ export const sorts: ISort[] = [
     },
 
     {
-        name: 'price',
+        name: 'by price',
         type: SortTypes.PRICE,
         func: (a, b) => sort(SortTypes.PRICE, a, b, SortDirections.ASC),
         icon: <i className="float-right fas fa-pound-sign"/>
     },
 
     {
-        name: 'star rating',
+        name: 'by star rating',
         type: SortTypes.STARS,
         func: (a, b) => sort(SortTypes.STARS, a, b, SortDirections.DESC),
         icon: <i className="float-right fas fa-star"/>

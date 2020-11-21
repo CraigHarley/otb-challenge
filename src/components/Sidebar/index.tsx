@@ -19,7 +19,7 @@ export default ({sorts, chosenSort, setChosenSort}: ISidebarProps) => (
                             className={(chosenSort === type) ? 'is-active' : undefined}
                             onClick={() => setChosenSort(type)}
                         >
-                            Sort by <strong>{name}</strong> {icon}
+                            Sort <strong>{name}</strong> {icon}
                         </button>
                     )
                 )
