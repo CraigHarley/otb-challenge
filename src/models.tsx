@@ -1,54 +1,40 @@
 import React from 'react';
 
 import {IHotel, ISort} from "./types";
-import {SortTypes} from "./types/enums";
+import {SortDirections, SortTypes} from "./types/enums";
 
 export const sorts: ISort[] = [
     {
         name: 'alphabetically',
         type: SortTypes.ALPHA,
-        func: (a, b) => {
-            if (a.name < b.name) {
-                return -1;
-            }
-            if (a.name > b.name) {
-                return 1;
-            }
-            return 0;
-        },
+        func: (a, b) => sort(SortTypes.ALPHA, a, b, SortDirections.ASC),
         icon: <i className="float-right fas fa-sort-alpha-down"/>
     },
 
     {
         name: 'price',
         type: SortTypes.PRICE,
-        func: (a, b) => {
-            if (a.price < b.price) {
-                return -1;
-            }
-            if (a.price > b.price) {
-                return 1;
-            }
-            return 0;
-        },
+        func: (a, b) => sort(SortTypes.PRICE, a, b, SortDirections.ASC),
         icon: <i className="float-right fas fa-pound-sign"/>
     },
 
     {
         name: 'star rating',
         type: SortTypes.STARS,
-        func: (a, b) => {
-            if (a.stars < b.stars) {
-                return -1;
-            }
-            if (a.stars > b.stars) {
-                return 1;
-            }
-            return 0;
-        },
+        func: (a, b) => sort(SortTypes.STARS, a, b, SortDirections.DESC),
         icon: <i className="float-right fas fa-star"/>
     },
 ]
+
+const sort = (key: SortTypes, a: IHotel, b: IHotel, direction: SortDirections) => {
+    if (a[key] > b[key]) {
+        return direction;
+    }
+    if (a[key] < b[key]) {
+        return -direction;
+    }
+    return 0;
+}
 
 export const hotels: IHotel[] = [
     {
