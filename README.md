@@ -1,4 +1,4 @@
-≥# On the Beach Frontend Software Engineer code test
+# On the Beach Frontend Software Engineer code test
 
 Produce a HTML, CSS and JavaScript representation of the given `design.png` with the following features:
 
@@ -22,10 +22,3 @@ Things we like:
 - Clean flow of state throughout the application
 
 ![](design.png)
-
-
-### TODO
-* Adults Child Infant string builder
-* Unit tests
-* Linting
-* Move styles in css in js

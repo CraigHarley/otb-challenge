@@ -26,7 +26,7 @@ export default ({adults, children, infants}: IOccupancyMessageProps): ReactEleme
     if (adults && children && !infants) {
         return (
             <span>
-                {adultMessage(adults)} & {childMessage(infants)}
+                {adultMessage(adults)} & {childMessage(children)}
             </span>
         );
     }
