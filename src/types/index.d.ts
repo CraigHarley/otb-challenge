@@ -1,3 +1,5 @@
+import {SortTypes} from "./enums";
+
 export interface IHotel {
     name: string;
     region: string;
@@ -12,7 +14,8 @@ export interface IHotel {
 }
 
 export interface ISort {
-    description: string;
+    name: string;
+    type: SortTypes;
     func: Function;
     icon: string;
 }

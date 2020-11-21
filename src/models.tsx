@@ -1,4 +1,30 @@
-import {IHotel} from "../types";
+import React from 'react';
+
+import {IHotel, ISort} from "./types";
+import {SortTypes} from "./types/enums";
+
+export const sorts: ISort[] = [
+    {
+        name: 'alphabetically',
+        type: SortTypes.ALPHA,
+        func: new Function(), // todo
+        icon: <i className="float-right fas fa-sort-alpha-down"/>
+    },
+
+    {
+        name: 'price',
+        type: SortTypes.PRICE,
+        func: new Function(), // todo
+        icon: <i className="float-right fas fa-pound-sign"/>
+    },
+
+    {
+        name: 'star rating',
+        type: SortTypes.STARS,
+        func: new Function(), // todo
+        icon: <i className="float-right fas fa-star"/>
+    },
+]
 
 export const hotels: IHotel[] = [
     {

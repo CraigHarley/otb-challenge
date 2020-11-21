@@ -1,11 +1,29 @@
 import React from 'react';
+import {ISort} from "../../types";
+import {SortTypes} from "../../types/enums";
 
-export default () => (
+export interface ISidebarProps {
+    setChosenSort: Function;
+    chosenSort: SortTypes;
+    sorts: ISort[];
+}
+
+export default ({sorts, chosenSort, setChosenSort}: ISidebarProps) => (
     <div className="Sidebar">
         <div className="button-container">
-            <button className="is-active">Sort <strong>alphabetically</strong><i className="float-right fas fa-sort-alpha-down"/></button>
-            <button>Sort by <strong>price</strong> <i className="float-right fas fa-pound-sign"/></button>
-            <button>Sort by <strong>star rating</strong> <i className="float-right fas fa-star"/></button>
+            {
+                sorts.map(
+                    ({name, icon, type}, key) => (
+                        <button
+                            key={key}
+                            className={(chosenSort === type) ? 'is-active' : undefined}
+                            onClick={setChosenSort(type)}
+                        >
+                            Sort by <strong>{name}</strong> {icon}
+                        </button>
+                    )
+                )
+            }
         </div>
     </div>
 );
