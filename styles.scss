@@ -91,6 +91,7 @@ body {
                 padding-left: 0;
                 font-weight: lighter;
                 font-size: 0.8rem;
+                color: black;
             }
 
             .call-to-action {
@@ -100,6 +101,7 @@ body {
                 height: 4rem;
                 border: none;
                 border-radius: 0.2rem;
+                cursor: pointer;
 
                 .action-text {
                     font-size: small;
@@ -110,12 +112,17 @@ body {
                     font-weight: bold;
                     font-size: medium;
                 }
+
+                &:hover {
+                    color: lighten($primary, 10%);
+                    background-color: lighten($secondary, 10%);
+                }
             }
         }
 
 
         // todo - details + summary would be more semantic
-        div.read-more {
+        button.read-more {
             position: absolute;
             bottom: 0;
             left: 0;
@@ -123,6 +130,13 @@ body {
             color: $primary;
             padding: 0.5rem 1rem;
             font-size: small;
+            cursor: pointer;
+            border: none;
+
+            &:hover {
+                color: lighten($primary, 10%);
+                background-color: lighten(whitesmoke, 10%);
+            }
         }
 
     }

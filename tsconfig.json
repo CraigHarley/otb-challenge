@@ -5,7 +5,8 @@
     "jsx": "react",
     "target": "ES5",
     "lib": [
-      "ES6"
+      "ES6",
+      "DOM",
     ]
   }
 }

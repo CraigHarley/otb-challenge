@@ -1,34 +1,31 @@
 import React from 'react';
 import {format} from 'date-fns';
 
-export interface ICardProps {
-    name: string;
-    region: string;
-    stars: number;
-    price: string;
-    adults: number;
-    children: number;
-    infants: number;
-    info: string;
-    image: string;
-    date: Date;
+import config from "../../config"
+import {IHotel, IListable} from "../../types";
+import OccupancyMessage from "./OccupancyMessage";
+
+export interface ICardProps extends IListable{
+    hotel: IHotel;
 }
 
 export default ({
-                    image,
-                    name,
-                    region,
-                    adults,
-                    children,
-                    infants,
-                    price,
-                    stars,
-                    date
+                    hotel: {
+                        image,
+                        name,
+                        region,
+                        adults,
+                        children,
+                        infants,
+                        price,
+                        stars,
+                        date
+                    }
                 }: ICardProps) =>
     (
         <div className="card">
             <img
-                src={`http://localhost:9999/${image}`}
+                src={`${config.ASSET_URL}${image}`}
                 alt="Image of the hotel"
             />
             <div className="content-container">
@@ -44,8 +41,11 @@ export default ({
 
                 <ul>
                     <li>
-                        <strong>{adults}</strong> Adults, <strong>{children}</strong> children
-                        & <strong>{infants}</strong> infant
+                        <OccupancyMessage
+                            adults={adults}
+                            children={children}
+                            infants={infants}
+                        />
                     </li>
                     <li><strong>{format(date, 'do MMMM yyyy')}</strong> for <strong>7 days</strong></li>
                     <li>departing from <strong>East Midlands</strong></li>
@@ -60,9 +60,9 @@ export default ({
                     </span>
                 </button>
             </div>
-            <div className="read-more">
+            <button className="read-more">
                 <strong>Read more</strong> about this hotel &nbsp;
                 <i className="fas fa-angle-right"/>
-            </div>
+            </button>
         </div>
     );
