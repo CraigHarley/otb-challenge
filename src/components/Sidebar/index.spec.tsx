@@ -1,5 +1,5 @@
 import React from 'react';
-import {mount} from 'enzyme';
+import {mount, render} from 'enzyme';
 
 import Sidebar from ".";
 import {SortTypes} from "../../types/enums";
@@ -14,9 +14,11 @@ const defaultProps = {
 test('it should render with sorts',
     () =>
         expect(
-            <Sidebar
-                {...defaultProps}
-            />
+            render(
+                <Sidebar
+                    {...defaultProps}
+                />
+            )
         )
             .toMatchSnapshot('default')
 );
@@ -24,14 +26,16 @@ test('it should render with sorts',
 test('it should render without sorts',
     () =>
         expect(
-            <Sidebar
-                {
-                    ...{
-                        ...defaultProps,
-                        sorts: []
+            render(
+                <Sidebar
+                    {
+                        ...{
+                            ...defaultProps,
+                            sorts: []
+                        }
                     }
-                }
-            />
+                />
+            )
         )
             .toMatchSnapshot('default')
 );
@@ -49,6 +53,7 @@ test('when a button is clicked, it should call setChosenSort',
                 }
             />
         );
+
         element.find('button').first().simulate('click');
         expect(setChosenSort).toHaveBeenCalled();
     }

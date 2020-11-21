@@ -4,5 +4,6 @@ module.exports = {
   coverageReporters: ['html-spa'],
   setupFilesAfterEnv: [
       "./jest.setup.ts"
-  ]
+  ],
+  snapshotSerializers: ["enzyme-to-json/serializer"]
 };

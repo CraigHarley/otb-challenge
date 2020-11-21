@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should function correctly for all the valid occupancy types: Occupancy rule: 0 1`] = `
+<span>
+  <strong>
+    2
+  </strong>
+   adults, 
+  <strong>
+    2
+  </strong>
+   children & 
+  <strong>
+    2
+  </strong>
+   infants
+</span>
+`;
+
+exports[`should function correctly for all the valid occupancy types: Occupancy rule: 1 1`] = `
+<span>
+  <strong>
+    2
+  </strong>
+   adults, 
+  <strong>
+    2
+  </strong>
+   children & 
+  <strong>
+    1
+  </strong>
+   infant
+</span>
+`;
+
+exports[`should function correctly for all the valid occupancy types: Occupancy rule: 2 1`] = `
+<span>
+  <strong>
+    1
+  </strong>
+   adult, 
+  <strong>
+    1
+  </strong>
+   child & 
+  <strong>
+    1
+  </strong>
+   infant
+</span>
+`;
+
+exports[`should function correctly for all the valid occupancy types: Occupancy rule: 3 1`] = `
+<span>
+  <strong>
+    2
+  </strong>
+   adults & 
+  <strong>
+    0
+  </strong>
+   children
+</span>
+`;
+
+exports[`should function correctly for all the valid occupancy types: Occupancy rule: 4 1`] = `
+<span>
+  <strong>
+    2
+  </strong>
+   adults & 
+  <strong>
+    0
+  </strong>
+   children
+</span>
+`;
+
+exports[`should function correctly for all the valid occupancy types: Occupancy rule: 5 1`] = `
+<span>
+  <strong>
+    2
+  </strong>
+   adults
+</span>
+`;

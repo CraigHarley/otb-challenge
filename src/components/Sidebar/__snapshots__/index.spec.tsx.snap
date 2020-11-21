@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should render with sorts: default 1`] = `
+<aside
+  class="sidebar"
+>
+  <div
+    class="button-container"
+  >
+    <button>
+      Sort 
+      <strong>
+        alphabetically
+      </strong>
+       
+      <i
+        class="float-right fas fa-sort-alpha-down"
+      />
+    </button>
+    <button>
+      Sort 
+      <strong>
+        by price
+      </strong>
+       
+      <i
+        class="float-right fas fa-pound-sign"
+      />
+    </button>
+    <button
+      class="is-active"
+    >
+      Sort 
+      <strong>
+        by star rating
+      </strong>
+       
+      <i
+        class="float-right fas fa-star"
+      />
+    </button>
+  </div>
+</aside>
+`;
+
+exports[`it should render without sorts: default 1`] = `
+<aside
+  class="sidebar"
+>
+  <div
+    class="button-container"
+  />
+</aside>
+`;
