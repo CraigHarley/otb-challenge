@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {IHotel, ISort} from "./types";
-import {SortDirections, SortTypes} from "./types/enums";
-import {sort} from "./helpers/sorting";
+import {IHotel, ISort} from './types';
+import {SortDirections, SortTypes} from './types/enums';
+import {sort} from './helpers/sorting';
 
 export const sorts: ISort[] = [
     {
@@ -32,11 +32,11 @@ export const hotels: IHotel[] = [
         adults: 2,
         children: 0,
         infants: 1,
-        info: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-        price: "£3,136.50",
-        region: "Costa Adeje, Tenerife",
-        name: "Iberostar Grand Salome",
-        image: "hotel-image-1.png",
+        info: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+        price: '£3,136.50',
+        region: 'Costa Adeje, Tenerife',
+        name: 'Iberostar Grand Salome',
+        image: 'hotel-image-1.png',
         stars: 4,
         date: new Date('2019-07-03')
     },
@@ -44,11 +44,11 @@ export const hotels: IHotel[] = [
         adults: 2,
         children: 1,
         infants: 0,
-        info: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-        price: "£1,136.50",
-        region: "Costa Adeje, Tenerife",
-        name: "Wow - so fancy",
-        image: "hotel-image-2.png",
+        info: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+        price: '£1,136.50',
+        region: 'Costa Adeje, Tenerife',
+        name: 'Wow - so fancy',
+        image: 'hotel-image-2.png',
         stars: 2,
         date: new Date('2019-07-03')
     },
@@ -56,11 +56,11 @@ export const hotels: IHotel[] = [
         adults: 1,
         children: 0,
         infants: 0,
-        info: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-        price: "£5,136.50",
-        region: "Costa Adeje, Tenerife",
-        name: "Swank-ville",
-        image: "hotel-image-3.png",
+        info: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+        price: '£5,136.50',
+        region: 'Costa Adeje, Tenerife',
+        name: 'Swank-ville',
+        image: 'hotel-image-3.png',
         stars: 4,
         date: new Date('2019-07-03')
     },
@@ -68,11 +68,11 @@ export const hotels: IHotel[] = [
         adults: 2,
         children: 0,
         infants: 0,
-        info: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-        price: "£2,136.50",
-        region: "Costa Adeje, Tenerife",
-        name: "Really Fancy Hotel",
-        image: "hotel-image-1.png",
+        info: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+        price: '£2,136.50',
+        region: 'Costa Adeje, Tenerife',
+        name: 'Really Fancy Hotel',
+        image: 'hotel-image-1.png',
         stars: 5,
         date: new Date('2019-07-03')
     },
@@ -80,11 +80,11 @@ export const hotels: IHotel[] = [
         adults: 2,
         children: 0,
         infants: 0,
-        info: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
-        price: "£2,136.50",
-        region: "Costa Adeje, Tenerife",
-        name: "Really Fancy Hotel v2",
-        image: "hotel-image-1.png",
+        info: 'blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah',
+        price: '£2,136.50',
+        region: 'Costa Adeje, Tenerife',
+        name: 'Really Fancy Hotel v2',
+        image: 'hotel-image-1.png',
         stars: 5,
         date: new Date('2019-07-03')
     }

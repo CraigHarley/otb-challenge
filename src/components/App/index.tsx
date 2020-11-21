@@ -1,9 +1,9 @@
 import React, {ReactElement, useState} from 'react';
 
-import {SortTypes} from "../../types/enums";
-import {hotels, sorts} from "../../models";
-import Sidebar from "../Sidebar";
-import Card from "../Card";
+import {SortTypes} from '../../types/enums';
+import {hotels, sorts} from '../../models';
+import Sidebar from '../Sidebar';
+import Card from '../Card';
 
 export default (): ReactElement => {
     const [chosenSort, setChosenSort] = useState(SortTypes.ALPHA);

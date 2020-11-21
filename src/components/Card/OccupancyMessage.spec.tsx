@@ -1,7 +1,7 @@
-import React from "react";
-import {render} from "enzyme";
+import React from 'react';
+import {render} from 'enzyme';
 
-import OccupancyMessage, {IOccupancyMessageProps} from "./OccupancyMessage";
+import OccupancyMessage, {IOccupancyMessageProps} from './OccupancyMessage';
 
 describe('OccupancyMessage', () => {
     test('should function correctly for all the valid occupancy types',
@@ -64,6 +64,6 @@ describe('OccupancyMessage', () => {
                         />
                     )
             )
-                .toThrowError("Can't have a holiday with no adults.")
+                .toThrowError('Can\'t have a holiday with no adults.')
     )
 })

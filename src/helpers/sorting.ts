@@ -1,5 +1,5 @@
-import {SortDirections, SortTypes} from "../types/enums";
-import {IHotel} from "../types";
+import {SortDirections, SortTypes} from '../types/enums';
+import {IHotel} from '../types';
 
 export const sort = (key: SortTypes, a: IHotel, b: IHotel, direction: SortDirections): number => {
     if (a[key] > b[key]) {

@@ -1,6 +1,6 @@
 import React, {ReactElement} from 'react';
-import {ISort} from "../../types";
-import {SortTypes} from "../../types/enums";
+import {ISort} from '../../types';
+import {SortTypes} from '../../types/enums';
 
 export interface ISidebarProps {
     setChosenSort: (sort: SortTypes) => void;

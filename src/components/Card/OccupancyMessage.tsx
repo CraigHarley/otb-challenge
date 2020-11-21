@@ -39,7 +39,7 @@ export default ({adults, children, infants}: IOccupancyMessageProps): ReactEleme
         );
     }
 
-    throw Error("Can't have a holiday with no adults.");
+    throw Error('Can\'t have a holiday with no adults.');
 }
 
 const adultMessage = (count: number): ReactElement => (

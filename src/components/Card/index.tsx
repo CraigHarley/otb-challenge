@@ -1,9 +1,9 @@
 import React, {ReactElement, useState} from 'react';
 import {format} from 'date-fns';
 
-import config from "../../config"
-import {IHotel, IListable} from "../../types";
-import OccupancyMessage from "./OccupancyMessage";
+import config from '../../config'
+import {IHotel, IListable} from '../../types';
+import OccupancyMessage from './OccupancyMessage';
 
 export interface ICardProps extends IListable {
     hotel: IHotel;

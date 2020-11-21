@@ -1,5 +1,5 @@
-import {SortTypes} from "./enums";
-import {ReactElement} from "react";
+import {SortTypes} from './enums';
+import {ReactElement} from 'react';
 
 export interface IAppConfig {
     ASSET_URL: string;
