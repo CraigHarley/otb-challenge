@@ -8,5 +8,5 @@ app.use(express.static('assets'))
 
 const PORT = 9999;
 app.listen(PORT, () => {
-    console.log(`Example app listening at http://localhost:${PORT}`)
+    console.log(`Assets server listening at http://localhost:${PORT}`)
 })

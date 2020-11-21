@@ -2,6 +2,7 @@ import React from 'react';
 
 import {IHotel, ISort} from "./types";
 import {SortDirections, SortTypes} from "./types/enums";
+import {sort} from "./helpers/sorting";
 
 export const sorts: ISort[] = [
     {
@@ -25,16 +26,6 @@ export const sorts: ISort[] = [
         icon: <i className="float-right fas fa-star"/>
     },
 ]
-
-const sort = (key: SortTypes, a: IHotel, b: IHotel, direction: SortDirections): number => {
-    if (a[key] > b[key]) {
-        return direction;
-    }
-    if (a[key] < b[key]) {
-        return -direction;
-    }
-    return 0;
-}
 
 export const hotels: IHotel[] = [
     {
@@ -81,6 +72,18 @@ export const hotels: IHotel[] = [
         price: "£2,136.50",
         region: "Costa Adeje, Tenerife",
         name: "Really Fancy Hotel",
+        image: "hotel-image-1.png",
+        stars: 5,
+        date: new Date('2019-07-03')
+    },
+    {
+        adults: 2,
+        children: 0,
+        infants: 0,
+        info: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+        price: "£2,136.50",
+        region: "Costa Adeje, Tenerife",
+        name: "Really Fancy Hotel v2",
         image: "hotel-image-1.png",
         stars: 5,
         date: new Date('2019-07-03')

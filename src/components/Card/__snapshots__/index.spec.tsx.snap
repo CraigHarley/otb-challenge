@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`it should render with sorts: default 1`] = `
+exports[`Card it should render with sorts: default 1`] = `
 <section>
   <div
     class="card"
@@ -101,7 +101,7 @@ exports[`it should render with sorts: default 1`] = `
 </section>
 `;
 
-exports[`when read more is clicked, it should show more content: with more content 1`] = `
+exports[`Card when read more is clicked, it should show more content: with more content 1`] = `
 <section>
   <div
     class="card"

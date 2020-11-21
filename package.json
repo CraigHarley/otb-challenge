@@ -31,6 +31,6 @@
     "start": "parcel index.html",
     "serve": "ts-node serve.ts",
     "lint": "eslint .",
-    "test": "jest"
+    "test": "jest --coverage"
   }
 }

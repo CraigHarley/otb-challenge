@@ -11,50 +11,52 @@ const defaultProps = {
     sorts
 }
 
-test('it should render with sorts',
-    () =>
-        expect(
-            render(
-                <Sidebar
-                    {...defaultProps}
-                />
+describe('Sidebar', () => {
+    test('it should render with sorts',
+        () =>
+            expect(
+                render(
+                    <Sidebar
+                        {...defaultProps}
+                    />
+                )
             )
-        )
-            .toMatchSnapshot('default')
-);
+                .toMatchSnapshot('default')
+    );
 
-test('it should render without sorts',
-    () =>
-        expect(
-            render(
+    test('it should render without sorts',
+        () =>
+            expect(
+                render(
+                    <Sidebar
+                        {
+                            ...{
+                                ...defaultProps,
+                                sorts: []
+                            }
+                        }
+                    />
+                )
+            )
+                .toMatchSnapshot('default')
+    );
+
+    test('when a button is clicked, it should call setChosenSort',
+        () => {
+            const setChosenSort = jest.fn();
+            const element = mount(
                 <Sidebar
                     {
                         ...{
                             ...defaultProps,
-                            sorts: []
+                            setChosenSort
                         }
                     }
                 />
-            )
-        )
-            .toMatchSnapshot('default')
-);
+            );
 
-test('when a button is clicked, it should call setChosenSort',
-    () => {
-        const setChosenSort = jest.fn();
-        const element = mount(
-            <Sidebar
-                {
-                    ...{
-                        ...defaultProps,
-                        setChosenSort
-                    }
-                }
-            />
-        );
-
-        element.find('button').first().simulate('click');
-        expect(setChosenSort).toHaveBeenCalled();
-    }
-);
+            element.find('button').first().simulate('click');
+            expect(setChosenSort).toHaveBeenCalled();
+        }
+    );
+})

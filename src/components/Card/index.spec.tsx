@@ -8,33 +8,36 @@ const defaultProps: ICardProps = {
     hotel: hotels[0]
 }
 
-test('it should render with sorts',
-    () =>
-        expect(
-            render(
+describe('Card', () => {
+    test('it should render with sorts',
+        () =>
+            expect(
+                render(
+                    <Card
+                        {...defaultProps}
+                    />
+                )
+            )
+                .toMatchSnapshot('default')
+    );
+
+    test('when read more is clicked, it should show more content',
+        () => {
+            const element = mount(
                 <Card
                     {...defaultProps}
                 />
-            )
-        )
-            .toMatchSnapshot('default')
-);
+            );
 
-test('when read more is clicked, it should show more content',
-    () => {
-        const element = mount(
-            <Card
-                {...defaultProps}
-            />
-        );
+            element
+                .find('.read-more')
+                .first()
+                .simulate('click');
 
-        element
-            .find('.read-more')
-            .first()
-            .simulate('click');
+            expect(
+                element.render()
+            ).toMatchSnapshot('with more content');
+        }
+    );
+})
 
-        expect(
-            element.render()
-        ).toMatchSnapshot('with more content');
-    }
-);
