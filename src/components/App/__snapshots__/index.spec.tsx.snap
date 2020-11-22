@@ -4,14 +4,12 @@ exports[`App it should render: default 1`] = `
 <div
   class="gridContainer_eg8q4b"
 >
-  <aside
-    class="container_1hppsak"
-  >
+  <aside>
     <div
       class="buttonContainer_15ic8la"
     >
       <button
-        class="button_1nssjj9-o_O-isActive_eesrj3-o_O-firstButton_4ebdec"
+        class="button_uw9t0c-o_O-isActive_1a0itbg-o_O-firstButton_4ebdec"
       >
         Sort 
         <strong>
@@ -23,7 +21,7 @@ exports[`App it should render: default 1`] = `
         />
       </button>
       <button
-        class="button_1nssjj9"
+        class="button_uw9t0c"
       >
         Sort 
         <strong>
@@ -35,7 +33,7 @@ exports[`App it should render: default 1`] = `
         />
       </button>
       <button
-        class="button_1nssjj9"
+        class="button_uw9t0c"
       >
         Sort 
         <strong>
@@ -48,15 +46,14 @@ exports[`App it should render: default 1`] = `
       </button>
     </div>
   </aside>
-  <article
-    class="content_9o1dcv"
-  >
+  <article>
     <section>
       <div
         class="card_pmicl5"
       >
         <img
           alt="Image of the hotel"
+          class="img_bm229d"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
@@ -132,6 +129,7 @@ exports[`App it should render: default 1`] = `
         </div>
         <button
           class="readMore_j9y440"
+          id="btn-read-more"
         >
           <strong>
             Read more
@@ -163,6 +161,7 @@ exports[`App it should render: default 1`] = `
       >
         <img
           alt="Image of the hotel"
+          class="img_bm229d"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
@@ -237,6 +236,7 @@ exports[`App it should render: default 1`] = `
         </div>
         <button
           class="readMore_j9y440"
+          id="btn-read-more"
         >
           <strong>
             Read more
@@ -268,6 +268,7 @@ exports[`App it should render: default 1`] = `
       >
         <img
           alt="Image of the hotel"
+          class="img_bm229d"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
@@ -342,6 +343,7 @@ exports[`App it should render: default 1`] = `
         </div>
         <button
           class="readMore_j9y440"
+          id="btn-read-more"
         >
           <strong>
             Read more
@@ -373,6 +375,7 @@ exports[`App it should render: default 1`] = `
       >
         <img
           alt="Image of the hotel"
+          class="img_bm229d"
           src="http://localhost:9999/hotel-image-3.png"
         />
         <div
@@ -444,6 +447,7 @@ exports[`App it should render: default 1`] = `
         </div>
         <button
           class="readMore_j9y440"
+          id="btn-read-more"
         >
           <strong>
             Read more
@@ -475,6 +479,7 @@ exports[`App it should render: default 1`] = `
       >
         <img
           alt="Image of the hotel"
+          class="img_bm229d"
           src="http://localhost:9999/hotel-image-2.png"
         />
         <div
@@ -544,6 +549,7 @@ exports[`App it should render: default 1`] = `
         </div>
         <button
           class="readMore_j9y440"
+          id="btn-read-more"
         >
           <strong>
             Read more

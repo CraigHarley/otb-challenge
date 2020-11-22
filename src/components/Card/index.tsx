@@ -22,6 +22,11 @@ const styles = StyleSheet.create({
         backgroundColor: 'whitesmoke',
         display: 'flex',
     },
+    img: {
+       // todo don't like this.
+       minWidth: '500px',
+       maxWidth: '500px'
+    },
     contentContainer: {
         padding: '1rem 2rem 2rem 2rem',
         color: config.styles.colors.primary,
@@ -66,6 +71,7 @@ export default ({
         <section>
             <div className={css(styles.card)}>
                 <img
+                    className={css(styles.img)}
                     src={`${config.ASSET_URL}${image}`}
                     alt="Image of the hotel"
                 />

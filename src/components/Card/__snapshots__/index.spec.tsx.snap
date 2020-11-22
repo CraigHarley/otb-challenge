@@ -3,36 +3,41 @@
 exports[`Card it should render with sorts: default 1`] = `
 <section>
   <div
-    class="card"
+    class="card_pmicl5"
   >
     <img
       alt="Image of the hotel"
+      class="img_bm229d"
       src="http://localhost:9999/hotel-image-1.png"
     />
     <div
-      class="content-container"
+      class="contentContainer_1ydb5eu"
     >
       <h1>
         Iberostar Grand Salome
       </h1>
-      <h2>
+      <h2
+        class="h2_1tkgvlr"
+      >
         Costa Adeje, Tenerife
       </h2>
       <div>
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
       </div>
-      <ul>
+      <ul
+        class="ul_tx6wom"
+      >
         <li>
           <span>
             <strong>
@@ -62,22 +67,23 @@ exports[`Card it should render with sorts: default 1`] = `
         </li>
       </ul>
       <button
-        class="call-to-action"
+        class="callToAction_55n7hg"
       >
         <span
-          class="action-text"
+          class="actionText_131r5dh"
         >
           Book now
         </span>
         <span
-          class="action-amount"
+          class="actionAmount_qtg89e"
         >
           £3,136.50
         </span>
       </button>
     </div>
     <button
-      class="read-more"
+      class="readMore_j9y440"
+      id="btn-read-more"
     >
       <strong>
         Read more
@@ -89,12 +95,16 @@ exports[`Card it should render with sorts: default 1`] = `
     </button>
   </div>
   <div
-    class="read-more-content is-hidden"
+    class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
   >
-    <h3>
+    <h3
+      class="h3_1ns9ks7"
+    >
       Overview
     </h3>
-    <p>
+    <p
+      class="p_fhs6vg"
+    >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
   </div>
@@ -104,36 +114,41 @@ exports[`Card it should render with sorts: default 1`] = `
 exports[`Card when read more is clicked, it should show more content: with more content 1`] = `
 <section>
   <div
-    class="card"
+    class="card_pmicl5"
   >
     <img
       alt="Image of the hotel"
+      class="img_bm229d"
       src="http://localhost:9999/hotel-image-1.png"
     />
     <div
-      class="content-container"
+      class="contentContainer_1ydb5eu"
     >
       <h1>
         Iberostar Grand Salome
       </h1>
-      <h2>
+      <h2
+        class="h2_1tkgvlr"
+      >
         Costa Adeje, Tenerife
       </h2>
       <div>
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
         <i
-          class="fas fa-star"
+          class="starIcon_17x7h34 fas fa-star"
         />
       </div>
-      <ul>
+      <ul
+        class="ul_tx6wom"
+      >
         <li>
           <span>
             <strong>
@@ -163,22 +178,23 @@ exports[`Card when read more is clicked, it should show more content: with more 
         </li>
       </ul>
       <button
-        class="call-to-action"
+        class="callToAction_55n7hg"
       >
         <span
-          class="action-text"
+          class="actionText_131r5dh"
         >
           Book now
         </span>
         <span
-          class="action-amount"
+          class="actionAmount_qtg89e"
         >
           £3,136.50
         </span>
       </button>
     </div>
     <button
-      class="read-more"
+      class="readMore_j9y440"
+      id="btn-read-more"
     >
       <strong>
         Read more
@@ -190,12 +206,16 @@ exports[`Card when read more is clicked, it should show more content: with more 
     </button>
   </div>
   <div
-    class="read-more-content "
+    class="readMoreContent_1aeiymr"
   >
-    <h3>
+    <h3
+      class="h3_1ns9ks7"
+    >
       Overview
     </h3>
-    <p>
+    <p
+      class="p_fhs6vg"
+    >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
   </div>

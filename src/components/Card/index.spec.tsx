@@ -30,7 +30,7 @@ describe('Card', () => {
             );
 
             element
-                .find('.read-more')
+                .find('#btn-read-more')
                 .first()
                 .simulate('click');
 

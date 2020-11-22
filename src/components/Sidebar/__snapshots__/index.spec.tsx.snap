@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sidebar it should render with sorts: default 1`] = `
-<aside
-  class="sidebar"
->
+<aside>
   <div
-    class="button-container"
+    class="buttonContainer_15ic8la"
   >
-    <button>
+    <button
+      class="button_uw9t0c-o_O-firstButton_4ebdec"
+    >
       Sort 
       <strong>
         alphabetically
@@ -17,7 +17,9 @@ exports[`Sidebar it should render with sorts: default 1`] = `
         class="float-right fas fa-sort-alpha-down"
       />
     </button>
-    <button>
+    <button
+      class="button_uw9t0c"
+    >
       Sort 
       <strong>
         by price
@@ -28,7 +30,7 @@ exports[`Sidebar it should render with sorts: default 1`] = `
       />
     </button>
     <button
-      class="is-active"
+      class="button_uw9t0c-o_O-isActive_1a0itbg"
     >
       Sort 
       <strong>
@@ -44,11 +46,9 @@ exports[`Sidebar it should render with sorts: default 1`] = `
 `;
 
 exports[`Sidebar it should render without sorts: default 1`] = `
-<aside
-  class="sidebar"
->
+<aside>
   <div
-    class="button-container"
+    class="buttonContainer_15ic8la"
   />
 </aside>
 `;

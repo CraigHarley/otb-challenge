@@ -26,6 +26,7 @@ export interface IReadMoreButtonProps {
 
 export default ({setIsShowingMoreInfo, isShowingMoreInfo}: IReadMoreButtonProps): ReactElement => (
     <button
+        id='btn-read-more'
         className={css(styles.readMore)}
         onClick={() => setIsShowingMoreInfo(!isShowingMoreInfo)}
     >
