@@ -5,9 +5,9 @@ import {css, StyleSheet} from 'aphrodite';
 import config from '../../config'
 import {IHotel, IListable} from '../../types';
 import OccupancyMessage from './OccupancyMessage';
-import CallToAction from "./CallToAction";
-import ReadMoreButton from "./ReadMoreButton";
-import ReadMoreContent from "./ReadMoreContent";
+import CallToAction from './CallToAction';
+import ReadMoreButton from './ReadMoreButton';
+import ReadMoreContent from './ReadMoreContent';
 
 export interface ICardProps extends IListable {
     hotel: IHotel;

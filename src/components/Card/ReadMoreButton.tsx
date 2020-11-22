@@ -1,7 +1,7 @@
 import React, {ReactElement} from 'react';
-import {css, StyleSheet} from "aphrodite";
+import {css, StyleSheet} from 'aphrodite';
 
-import config from "../../config";
+import config from '../../config';
 
 const styles = StyleSheet.create({
     readMore: {
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
 });
 
 export interface IReadMoreButtonProps {
-    setIsShowingMoreInfo: Function;
+    setIsShowingMoreInfo: (isShowingMoreInfo: boolean) => void;
     isShowingMoreInfo: boolean;
 }
 

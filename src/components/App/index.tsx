@@ -1,5 +1,5 @@
 import React, {ReactElement, useState} from 'react';
-import {css, StyleSheet} from "aphrodite";
+import {css, StyleSheet} from 'aphrodite';
 
 import {SortTypes} from '../../types/enums';
 import {hotels, sorts} from '../../models';
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         display: 'grid',
         gridTemplateColumns: '1fr 1fr 1fr 1fr',
         gridTemplateRows: '1fr',
-        gridTemplateAreas: "Sidebar Content Content Content",
+        gridTemplateAreas: 'Sidebar Content Content Content',
     }
 })
 

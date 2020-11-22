@@ -1,10 +1,14 @@
-import {SortTypes} from './enums';
 import {ReactElement} from 'react';
+
+import {SortTypes} from './enums';
 
 export interface IAppConfig {
     ASSET_URL: string;
     styles: {
-        colors: any
+        colors: {
+            primary: string;
+            secondary: string;
+        }
     }
 }
 
