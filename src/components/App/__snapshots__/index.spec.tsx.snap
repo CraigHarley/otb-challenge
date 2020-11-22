@@ -1,15 +1,181 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App it should render: default 1`] = `
+.gridContainer {
+  -ms-grid-rows: 1fr !important;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr !important;
+  grid-template-areas: Sidebar Content Content Content !important;
+}
+
+.buttonContainer {
+  min-width: 200px !important;
+  max-width: 200px !important;
+  margin: 2rem 5rem !important;
+}
+
+.button-isActive-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: white !important;
+  border-top: none !important;
+}
+
+.button {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+}
+
+.card {
+  position: relative !important;
+  margin: 2rem 2rem 0 2rem !important;
+  width: 780px !important;
+  height: 300px !important;
+  background-color: whitesmoke !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+.img {
+  min-width: 500px !important;
+  max-width: 500px !important;
+}
+
+.contentContainer {
+  margin: 1rem auto !important;
+  color: rgb(21, 47, 132) !important;
+  position: relative !important;
+}
+
+.h2 {
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+}
+
+.starIcon {
+  color: rgb(255, 220, 0) !important;
+}
+
+.ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+  color: black !important;
+}
+
+.callToAction {
+  margin: 2rem auto !important;
+  padding: 0px !important;
+  position: absolute !important;
+  left: 0px !important;
+  right: 0px !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+  width: 160px !important;
+  height: 4rem !important;
+  border: none !important;
+  border-radius: 0.2rem !important;
+  cursor: pointer !important;
+}
+
+.actionText {
+  font-size: small !important;
+  display: block !important;
+}
+
+.actionAmount {
+  font-weight: bold !important;
+  font-size: medium !important;
+}
+
+.readMore {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: whitesmoke !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: small !important;
+  cursor: pointer !important;
+  border: none !important;
+}
+
+.readMore:hover {
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+}
+
+.readMoreContent-isHidden {
+  background-color: whitesmoke !important;
+  width: 780px !important;
+  margin: 0 2rem 2rem 2rem !important;
+  padding: 1rem !important;
+  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -moz-transition: transform 0.3s ease-out !important;
+  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -webkit-transform-origin: top !important;
+  -ms-transform-origin: top !important;
+  transform-origin: top !important;
+  -webkit-transform: scaleY(0) !important;
+  -ms-transform: scaleY(0) !important;
+  transform: scaleY(0) !important;
+  height: 0px !important;
+  overflow: hidden !important;
+}
+
+.h3 {
+  font-size: small !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.p {
+  font-size: small !important;
+  font-weight: lighter !important;
+  line-height: 1.2rem !important;
+}
+
 <div
-  class="gridContainer_eg8q4b"
+  class="gridContainer"
 >
   <aside>
     <div
-      class="buttonContainer_15ic8la"
+      class="buttonContainer"
     >
       <button
-        class="button_uw9t0c-o_O-isActive_1a0itbg-o_O-firstButton_4ebdec"
+        class="button-isActive-firstButton"
+        name="btn-sort-0"
       >
         Sort 
         <strong>
@@ -21,7 +187,8 @@ exports[`App it should render: default 1`] = `
         />
       </button>
       <button
-        class="button_uw9t0c"
+        class="button"
+        name="btn-sort-1"
       >
         Sort 
         <strong>
@@ -33,7 +200,8 @@ exports[`App it should render: default 1`] = `
         />
       </button>
       <button
-        class="button_uw9t0c"
+        class="button"
+        name="btn-sort-2"
       >
         Sort 
         <strong>
@@ -49,40 +217,40 @@ exports[`App it should render: default 1`] = `
   <article>
     <section>
       <div
-        class="card_pmicl5"
+        class="card"
       >
         <img
           alt="Image of the hotel"
-          class="img_bm229d"
+          class="img"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
-          class="contentContainer_1ydb5eu"
+          class="contentContainer"
         >
           <h1>
             Iberostar Grand Salome
           </h1>
           <h2
-            class="h2_1tkgvlr"
+            class="h2"
           >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
           </div>
           <ul
-            class="ul_tx6wom"
+            class="ul"
           >
             <li>
               <span>
@@ -113,22 +281,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="callToAction_55n7hg"
+            class="callToAction"
           >
             <span
-              class="actionText_131r5dh"
+              class="actionText"
             >
               Book now
             </span>
             <span
-              class="actionAmount_qtg89e"
+              class="actionAmount"
             >
               £3,136.50
             </span>
           </button>
         </div>
         <button
-          class="readMore_j9y440"
+          class="readMore"
           id="btn-read-more"
         >
           <strong>
@@ -141,15 +309,15 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
+        class="readMoreContent-isHidden"
       >
         <h3
-          class="h3_1ns9ks7"
+          class="h3"
         >
           Overview
         </h3>
         <p
-          class="p_fhs6vg"
+          class="p"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
@@ -157,43 +325,43 @@ exports[`App it should render: default 1`] = `
     </section>
     <section>
       <div
-        class="card_pmicl5"
+        class="card"
       >
         <img
           alt="Image of the hotel"
-          class="img_bm229d"
+          class="img"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
-          class="contentContainer_1ydb5eu"
+          class="contentContainer"
         >
           <h1>
             Really Fancy Hotel
           </h1>
           <h2
-            class="h2_1tkgvlr"
+            class="h2"
           >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
           </div>
           <ul
-            class="ul_tx6wom"
+            class="ul"
           >
             <li>
               <span>
@@ -220,22 +388,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="callToAction_55n7hg"
+            class="callToAction"
           >
             <span
-              class="actionText_131r5dh"
+              class="actionText"
             >
               Book now
             </span>
             <span
-              class="actionAmount_qtg89e"
+              class="actionAmount"
             >
               £2,136.50
             </span>
           </button>
         </div>
         <button
-          class="readMore_j9y440"
+          class="readMore"
           id="btn-read-more"
         >
           <strong>
@@ -248,15 +416,15 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
+        class="readMoreContent-isHidden"
       >
         <h3
-          class="h3_1ns9ks7"
+          class="h3"
         >
           Overview
         </h3>
         <p
-          class="p_fhs6vg"
+          class="p"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
@@ -264,43 +432,43 @@ exports[`App it should render: default 1`] = `
     </section>
     <section>
       <div
-        class="card_pmicl5"
+        class="card"
       >
         <img
           alt="Image of the hotel"
-          class="img_bm229d"
+          class="img"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
-          class="contentContainer_1ydb5eu"
+          class="contentContainer"
         >
           <h1>
             Really Fancy Hotel v2
           </h1>
           <h2
-            class="h2_1tkgvlr"
+            class="h2"
           >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
           </div>
           <ul
-            class="ul_tx6wom"
+            class="ul"
           >
             <li>
               <span>
@@ -327,22 +495,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="callToAction_55n7hg"
+            class="callToAction"
           >
             <span
-              class="actionText_131r5dh"
+              class="actionText"
             >
               Book now
             </span>
             <span
-              class="actionAmount_qtg89e"
+              class="actionAmount"
             >
               £2,136.50
             </span>
           </button>
         </div>
         <button
-          class="readMore_j9y440"
+          class="readMore"
           id="btn-read-more"
         >
           <strong>
@@ -355,15 +523,15 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
+        class="readMoreContent-isHidden"
       >
         <h3
-          class="h3_1ns9ks7"
+          class="h3"
         >
           Overview
         </h3>
         <p
-          class="p_fhs6vg"
+          class="p"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
@@ -371,40 +539,40 @@ exports[`App it should render: default 1`] = `
     </section>
     <section>
       <div
-        class="card_pmicl5"
+        class="card"
       >
         <img
           alt="Image of the hotel"
-          class="img_bm229d"
+          class="img"
           src="http://localhost:9999/hotel-image-3.png"
         />
         <div
-          class="contentContainer_1ydb5eu"
+          class="contentContainer"
         >
           <h1>
             Swank-ville
           </h1>
           <h2
-            class="h2_1tkgvlr"
+            class="h2"
           >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
           </div>
           <ul
-            class="ul_tx6wom"
+            class="ul"
           >
             <li>
               <span>
@@ -431,22 +599,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="callToAction_55n7hg"
+            class="callToAction"
           >
             <span
-              class="actionText_131r5dh"
+              class="actionText"
             >
               Book now
             </span>
             <span
-              class="actionAmount_qtg89e"
+              class="actionAmount"
             >
               £5,136.50
             </span>
           </button>
         </div>
         <button
-          class="readMore_j9y440"
+          class="readMore"
           id="btn-read-more"
         >
           <strong>
@@ -459,15 +627,15 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
+        class="readMoreContent-isHidden"
       >
         <h3
-          class="h3_1ns9ks7"
+          class="h3"
         >
           Overview
         </h3>
         <p
-          class="p_fhs6vg"
+          class="p"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
@@ -475,34 +643,34 @@ exports[`App it should render: default 1`] = `
     </section>
     <section>
       <div
-        class="card_pmicl5"
+        class="card"
       >
         <img
           alt="Image of the hotel"
-          class="img_bm229d"
+          class="img"
           src="http://localhost:9999/hotel-image-2.png"
         />
         <div
-          class="contentContainer_1ydb5eu"
+          class="contentContainer"
         >
           <h1>
             Wow - so fancy
           </h1>
           <h2
-            class="h2_1tkgvlr"
+            class="h2"
           >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
             <i
-              class="starIcon_17x7h34 fas fa-star"
+              class="starIcon fas fa-star"
             />
           </div>
           <ul
-            class="ul_tx6wom"
+            class="ul"
           >
             <li>
               <span>
@@ -533,22 +701,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="callToAction_55n7hg"
+            class="callToAction"
           >
             <span
-              class="actionText_131r5dh"
+              class="actionText"
             >
               Book now
             </span>
             <span
-              class="actionAmount_qtg89e"
+              class="actionAmount"
             >
               £1,136.50
             </span>
           </button>
         </div>
         <button
-          class="readMore_j9y440"
+          class="readMore"
           id="btn-read-more"
         >
           <strong>
@@ -561,15 +729,2292 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
+        class="readMoreContent-isHidden"
       >
         <h3
-          class="h3_1ns9ks7"
+          class="h3"
         >
           Overview
         </h3>
         <p
-          class="p_fhs6vg"
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+  </article>
+</div>
+`;
+
+exports[`App when different sorts are clicked, it should rearrange the hotels: sorting: 0 1`] = `
+.gridContainer {
+  -ms-grid-rows: 1fr !important;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr !important;
+  grid-template-areas: Sidebar Content Content Content !important;
+}
+
+.buttonContainer {
+  min-width: 200px !important;
+  max-width: 200px !important;
+  margin: 2rem 5rem !important;
+}
+
+.button-isActive-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: white !important;
+  border-top: none !important;
+}
+
+.button {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+}
+
+.card {
+  position: relative !important;
+  margin: 2rem 2rem 0 2rem !important;
+  width: 780px !important;
+  height: 300px !important;
+  background-color: whitesmoke !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+.img {
+  min-width: 500px !important;
+  max-width: 500px !important;
+}
+
+.contentContainer {
+  margin: 1rem auto !important;
+  color: rgb(21, 47, 132) !important;
+  position: relative !important;
+}
+
+.h2 {
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+}
+
+.starIcon {
+  color: rgb(255, 220, 0) !important;
+}
+
+.ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+  color: black !important;
+}
+
+.callToAction {
+  margin: 2rem auto !important;
+  padding: 0px !important;
+  position: absolute !important;
+  left: 0px !important;
+  right: 0px !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+  width: 160px !important;
+  height: 4rem !important;
+  border: none !important;
+  border-radius: 0.2rem !important;
+  cursor: pointer !important;
+}
+
+.actionText {
+  font-size: small !important;
+  display: block !important;
+}
+
+.actionAmount {
+  font-weight: bold !important;
+  font-size: medium !important;
+}
+
+.readMore {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: whitesmoke !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: small !important;
+  cursor: pointer !important;
+  border: none !important;
+}
+
+.readMore:hover {
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+}
+
+.readMoreContent-isHidden {
+  background-color: whitesmoke !important;
+  width: 780px !important;
+  margin: 0 2rem 2rem 2rem !important;
+  padding: 1rem !important;
+  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -moz-transition: transform 0.3s ease-out !important;
+  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -webkit-transform-origin: top !important;
+  -ms-transform-origin: top !important;
+  transform-origin: top !important;
+  -webkit-transform: scaleY(0) !important;
+  -ms-transform: scaleY(0) !important;
+  transform: scaleY(0) !important;
+  height: 0px !important;
+  overflow: hidden !important;
+}
+
+.h3 {
+  font-size: small !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.p {
+  font-size: small !important;
+  font-weight: lighter !important;
+  line-height: 1.2rem !important;
+}
+
+<div
+  class="gridContainer"
+>
+  <aside>
+    <div
+      class="buttonContainer"
+    >
+      <button
+        class="button-isActive-firstButton"
+        name="btn-sort-0"
+      >
+        Sort 
+        <strong>
+          alphabetically
+        </strong>
+         
+        <i
+          class="float-right fas fa-sort-alpha-down"
+        />
+      </button>
+      <button
+        class="button"
+        name="btn-sort-1"
+      >
+        Sort 
+        <strong>
+          by price
+        </strong>
+         
+        <i
+          class="float-right fas fa-pound-sign"
+        />
+      </button>
+      <button
+        class="button"
+        name="btn-sort-2"
+      >
+        Sort 
+        <strong>
+          by star rating
+        </strong>
+         
+        <i
+          class="float-right fas fa-star"
+        />
+      </button>
+    </div>
+  </aside>
+  <article>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Iberostar Grand Salome
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults & 
+                <strong>
+                  1
+                </strong>
+                 infant
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £3,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Really Fancy Hotel
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £2,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Really Fancy Hotel v2
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £2,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-3.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Swank-ville
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  1
+                </strong>
+                 adult
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £5,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-2.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Wow - so fancy
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults & 
+                <strong>
+                  1
+                </strong>
+                 child
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £1,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+  </article>
+</div>
+`;
+
+exports[`App when different sorts are clicked, it should rearrange the hotels: sorting: 1 1`] = `
+.gridContainer {
+  -ms-grid-rows: 1fr !important;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr !important;
+  grid-template-areas: Sidebar Content Content Content !important;
+}
+
+.buttonContainer {
+  min-width: 200px !important;
+  max-width: 200px !important;
+  margin: 2rem 5rem !important;
+}
+
+.button {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+}
+
+.card {
+  position: relative !important;
+  margin: 2rem 2rem 0 2rem !important;
+  width: 780px !important;
+  height: 300px !important;
+  background-color: whitesmoke !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+.img {
+  min-width: 500px !important;
+  max-width: 500px !important;
+}
+
+.contentContainer {
+  margin: 1rem auto !important;
+  color: rgb(21, 47, 132) !important;
+  position: relative !important;
+}
+
+.h2 {
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+}
+
+.starIcon {
+  color: rgb(255, 220, 0) !important;
+}
+
+.ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+  color: black !important;
+}
+
+.callToAction {
+  margin: 2rem auto !important;
+  padding: 0px !important;
+  position: absolute !important;
+  left: 0px !important;
+  right: 0px !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+  width: 160px !important;
+  height: 4rem !important;
+  border: none !important;
+  border-radius: 0.2rem !important;
+  cursor: pointer !important;
+}
+
+.actionText {
+  font-size: small !important;
+  display: block !important;
+}
+
+.actionAmount {
+  font-weight: bold !important;
+  font-size: medium !important;
+}
+
+.readMore {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: whitesmoke !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: small !important;
+  cursor: pointer !important;
+  border: none !important;
+}
+
+.readMore:hover {
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+}
+
+.readMoreContent-isHidden {
+  background-color: whitesmoke !important;
+  width: 780px !important;
+  margin: 0 2rem 2rem 2rem !important;
+  padding: 1rem !important;
+  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -moz-transition: transform 0.3s ease-out !important;
+  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -webkit-transform-origin: top !important;
+  -ms-transform-origin: top !important;
+  transform-origin: top !important;
+  -webkit-transform: scaleY(0) !important;
+  -ms-transform: scaleY(0) !important;
+  transform: scaleY(0) !important;
+  height: 0px !important;
+  overflow: hidden !important;
+}
+
+.h3 {
+  font-size: small !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.p {
+  font-size: small !important;
+  font-weight: lighter !important;
+  line-height: 1.2rem !important;
+}
+
+.button-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  border-top: none !important;
+}
+
+.button-isActive {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: white !important;
+}
+
+<div
+  class="gridContainer"
+>
+  <aside>
+    <div
+      class="buttonContainer"
+    >
+      <button
+        class="button-firstButton"
+        name="btn-sort-0"
+      >
+        Sort 
+        <strong>
+          alphabetically
+        </strong>
+         
+        <i
+          class="float-right fas fa-sort-alpha-down"
+        />
+      </button>
+      <button
+        class="button-isActive"
+        name="btn-sort-1"
+      >
+        Sort 
+        <strong>
+          by price
+        </strong>
+         
+        <i
+          class="float-right fas fa-pound-sign"
+        />
+      </button>
+      <button
+        class="button"
+        name="btn-sort-2"
+      >
+        Sort 
+        <strong>
+          by star rating
+        </strong>
+         
+        <i
+          class="float-right fas fa-star"
+        />
+      </button>
+    </div>
+  </aside>
+  <article>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-2.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Wow - so fancy
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults & 
+                <strong>
+                  1
+                </strong>
+                 child
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £1,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Really Fancy Hotel
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £2,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Really Fancy Hotel v2
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £2,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Iberostar Grand Salome
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults & 
+                <strong>
+                  1
+                </strong>
+                 infant
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £3,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-3.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Swank-ville
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  1
+                </strong>
+                 adult
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £5,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+  </article>
+</div>
+`;
+
+exports[`App when different sorts are clicked, it should rearrange the hotels: sorting: 2 1`] = `
+.gridContainer {
+  -ms-grid-rows: 1fr !important;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr !important;
+  display: -ms-grid !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr !important;
+  grid-template-areas: Sidebar Content Content Content !important;
+}
+
+.buttonContainer {
+  min-width: 200px !important;
+  max-width: 200px !important;
+  margin: 2rem 5rem !important;
+}
+
+.button {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+}
+
+.card {
+  position: relative !important;
+  margin: 2rem 2rem 0 2rem !important;
+  width: 780px !important;
+  height: 300px !important;
+  background-color: whitesmoke !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+.img {
+  min-width: 500px !important;
+  max-width: 500px !important;
+}
+
+.contentContainer {
+  margin: 1rem auto !important;
+  color: rgb(21, 47, 132) !important;
+  position: relative !important;
+}
+
+.h2 {
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+}
+
+.starIcon {
+  color: rgb(255, 220, 0) !important;
+}
+
+.ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+  color: black !important;
+}
+
+.callToAction {
+  margin: 2rem auto !important;
+  padding: 0px !important;
+  position: absolute !important;
+  left: 0px !important;
+  right: 0px !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+  width: 160px !important;
+  height: 4rem !important;
+  border: none !important;
+  border-radius: 0.2rem !important;
+  cursor: pointer !important;
+}
+
+.actionText {
+  font-size: small !important;
+  display: block !important;
+}
+
+.actionAmount {
+  font-weight: bold !important;
+  font-size: medium !important;
+}
+
+.readMore {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: whitesmoke !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: small !important;
+  cursor: pointer !important;
+  border: none !important;
+}
+
+.readMore:hover {
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+}
+
+.readMoreContent-isHidden {
+  background-color: whitesmoke !important;
+  width: 780px !important;
+  margin: 0 2rem 2rem 2rem !important;
+  padding: 1rem !important;
+  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -moz-transition: transform 0.3s ease-out !important;
+  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -webkit-transform-origin: top !important;
+  -ms-transform-origin: top !important;
+  transform-origin: top !important;
+  -webkit-transform: scaleY(0) !important;
+  -ms-transform: scaleY(0) !important;
+  transform: scaleY(0) !important;
+  height: 0px !important;
+  overflow: hidden !important;
+}
+
+.h3 {
+  font-size: small !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.p {
+  font-size: small !important;
+  font-weight: lighter !important;
+  line-height: 1.2rem !important;
+}
+
+.button-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  border-top: none !important;
+}
+
+.button-o_O-isActive_1a0itbg {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: white !important;
+}
+
+<div
+  class="gridContainer"
+>
+  <aside>
+    <div
+      class="buttonContainer"
+    >
+      <button
+        class="button-firstButton"
+        name="btn-sort-0"
+      >
+        Sort 
+        <strong>
+          alphabetically
+        </strong>
+         
+        <i
+          class="float-right fas fa-sort-alpha-down"
+        />
+      </button>
+      <button
+        class="button"
+        name="btn-sort-1"
+      >
+        Sort 
+        <strong>
+          by price
+        </strong>
+         
+        <i
+          class="float-right fas fa-pound-sign"
+        />
+      </button>
+      <button
+        class="button-o_O-isActive_1a0itbg"
+        name="btn-sort-2"
+      >
+        Sort 
+        <strong>
+          by star rating
+        </strong>
+         
+        <i
+          class="float-right fas fa-star"
+        />
+      </button>
+    </div>
+  </aside>
+  <article>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Really Fancy Hotel
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £2,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Really Fancy Hotel v2
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £2,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Iberostar Grand Salome
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults & 
+                <strong>
+                  1
+                </strong>
+                 infant
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £3,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-3.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Swank-ville
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  1
+                </strong>
+                 adult
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £5,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
+          src="http://localhost:9999/hotel-image-2.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Wow - so fancy
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults & 
+                <strong>
+                  1
+                </strong>
+                 child
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £1,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>

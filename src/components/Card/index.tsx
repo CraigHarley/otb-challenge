@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     card: {
         position: 'relative',
         margin: '2rem 2rem 0 2rem',
-        width: '760px',
+        width: '780px',
         height: '300px',
         backgroundColor: 'whitesmoke',
         display: 'flex',
@@ -28,8 +28,10 @@ const styles = StyleSheet.create({
        maxWidth: '500px'
     },
     contentContainer: {
-        padding: '1rem 2rem 2rem 2rem',
+        margin: '1rem',
         color: config.styles.colors.primary,
+        width: '100%',
+        position: 'relative'
     },
     h1: {
         fontWeight: 'normal',

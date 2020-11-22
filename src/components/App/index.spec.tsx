@@ -21,7 +21,7 @@ describe('App', () => {
             );
 
             element
-                .find('.button-container button')
+                .find('button[name^="btn-sort"]')
                 .forEach((btn, key) => {
                     btn
                         .simulate('click')

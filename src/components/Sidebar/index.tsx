@@ -31,9 +31,6 @@ const styles = StyleSheet.create({
         padding: '0.5rem 1rem 0.5rem 1rem',
         lineHeight: '1rem',
         fontSize: 'small',
-        ':hover': {
-            // backgroundColor: `lighten(${config.styles.colors.primary}, 50%)`
-        }
     },
     firstButton: {
         borderTop: 'none'
@@ -41,9 +38,6 @@ const styles = StyleSheet.create({
     isActive: {
         backgroundColor: config.styles.colors.primary,
         color: 'white',
-        ':hover': {
-            // backgroundColor: `lighten(${config.styles.colors.primary}, 10%)`
-        }
     }
 });
 
@@ -54,6 +48,7 @@ export default ({sorts, chosenSort, setChosenSort}: ISidebarProps): ReactElement
                 sorts.map(
                     ({name, icon, type}, key) => (
                         <button
+                            name={`btn-sort-${key}`}
                             key={key}
                             className={
                                 css(

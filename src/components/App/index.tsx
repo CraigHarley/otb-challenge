@@ -11,7 +11,6 @@ const styles = StyleSheet.create({
         display: 'grid',
         gridTemplateColumns: '1fr 1fr 1fr 1fr',
         gridTemplateRows: '1fr',
-        gap: '0 0',
         gridTemplateAreas: "Sidebar Content Content Content",
     }
 })

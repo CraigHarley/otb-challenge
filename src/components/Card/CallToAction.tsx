@@ -4,7 +4,7 @@ import config from "../../config";
 
 const styles = StyleSheet.create({
     callToAction: {
-        marginTop: '2rem',
+        padding: 0,
         color: config.styles.colors.primary,
         backgroundColor: config.styles.colors.secondary,
         width: '100%',
@@ -12,11 +12,8 @@ const styles = StyleSheet.create({
         border: 'none',
         borderRadius: '0.2rem',
         cursor: 'pointer',
-        ':hover': {
-            // todo
-            // color: 'lighten($primary, 10%)',
-            // backgroundColor: 'lighten($secondary, 10%)'
-        }
+        position: 'absolute',
+        bottom: 0
     },
     actionText: {
         fontSize: 'small',

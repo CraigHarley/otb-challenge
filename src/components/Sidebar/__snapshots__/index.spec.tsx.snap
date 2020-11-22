@@ -1,12 +1,74 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Sidebar it should render with sorts: default 1`] = `
+.buttonContainer {
+  min-width: 200px !important;
+  max-width: 200px !important;
+  margin: 2rem 5rem !important;
+}
+
+.button-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  border-top: none !important;
+}
+
+.button {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+}
+
+.button-o_O-isActive_1a0itbg {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: white !important;
+}
+
 <aside>
   <div
-    class="buttonContainer_15ic8la"
+    class="buttonContainer"
   >
     <button
-      class="button_uw9t0c-o_O-firstButton_4ebdec"
+      class="button-firstButton"
+      name="btn-sort-0"
     >
       Sort 
       <strong>
@@ -18,7 +80,8 @@ exports[`Sidebar it should render with sorts: default 1`] = `
       />
     </button>
     <button
-      class="button_uw9t0c"
+      class="button"
+      name="btn-sort-1"
     >
       Sort 
       <strong>
@@ -30,7 +93,8 @@ exports[`Sidebar it should render with sorts: default 1`] = `
       />
     </button>
     <button
-      class="button_uw9t0c-o_O-isActive_1a0itbg"
+      class="button-o_O-isActive_1a0itbg"
+      name="btn-sort-2"
     >
       Sort 
       <strong>
@@ -46,9 +110,15 @@ exports[`Sidebar it should render with sorts: default 1`] = `
 `;
 
 exports[`Sidebar it should render without sorts: default 1`] = `
+.buttonContainer {
+  min-width: 200px !important;
+  max-width: 200px !important;
+  margin: 2rem 5rem !important;
+}
+
 <aside>
   <div
-    class="buttonContainer_15ic8la"
+    class="buttonContainer"
   />
 </aside>
 `;

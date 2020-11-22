@@ -1,10 +1,12 @@
 import React, {ReactElement} from 'react';
 import {css, StyleSheet} from "aphrodite";
 
+import config from "../../config";
+
 const styles = StyleSheet.create({
     readMoreContent: {
         backgroundColor: 'whitesmoke',
-        width: '760px',
+        width: '780px',
         margin: '0 2rem 2rem 2rem',
         padding: '1rem',
         transition: 'transform 0.3s ease-out',
@@ -13,7 +15,7 @@ const styles = StyleSheet.create({
     },
     h3: {
         fontSize: 'small',
-        color: 'primary'
+        color: config.styles.colors.primary
     },
     p: {
         fontSize: 'small',
@@ -24,7 +26,6 @@ const styles = StyleSheet.create({
         transform: 'scaleY(0)',
         height: 0,
         overflow: 'hidden'
-
     }
 });
 

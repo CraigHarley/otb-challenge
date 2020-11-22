@@ -1,42 +1,154 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card it should render with sorts: default 1`] = `
+.card {
+  position: relative !important;
+  margin: 2rem 2rem 0 2rem !important;
+  width: 780px !important;
+  height: 300px !important;
+  background-color: whitesmoke !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+.img {
+  min-width: 500px !important;
+  max-width: 500px !important;
+}
+
+.contentContainer {
+  margin: 1rem auto !important;
+  color: rgb(21, 47, 132) !important;
+  position: relative !important;
+}
+
+.h2 {
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+}
+
+.starIcon {
+  color: rgb(255, 220, 0) !important;
+}
+
+.ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+  color: black !important;
+}
+
+.callToAction {
+  margin: 2rem auto !important;
+  padding: 0px !important;
+  position: absolute !important;
+  left: 0px !important;
+  right: 0px !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+  width: 160px !important;
+  height: 4rem !important;
+  border: none !important;
+  border-radius: 0.2rem !important;
+  cursor: pointer !important;
+}
+
+.actionText {
+  font-size: small !important;
+  display: block !important;
+}
+
+.actionAmount {
+  font-weight: bold !important;
+  font-size: medium !important;
+}
+
+.readMore {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: whitesmoke !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: small !important;
+  cursor: pointer !important;
+  border: none !important;
+}
+
+.readMore:hover {
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+}
+
+.readMoreContent-isHidden {
+  background-color: whitesmoke !important;
+  width: 780px !important;
+  margin: 0 2rem 2rem 2rem !important;
+  padding: 1rem !important;
+  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -moz-transition: transform 0.3s ease-out !important;
+  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -webkit-transform-origin: top !important;
+  -ms-transform-origin: top !important;
+  transform-origin: top !important;
+  -webkit-transform: scaleY(0) !important;
+  -ms-transform: scaleY(0) !important;
+  transform: scaleY(0) !important;
+  height: 0px !important;
+  overflow: hidden !important;
+}
+
+.h3 {
+  font-size: small !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.p {
+  font-size: small !important;
+  font-weight: lighter !important;
+  line-height: 1.2rem !important;
+}
+
 <section>
   <div
-    class="card_pmicl5"
+    class="card"
   >
     <img
       alt="Image of the hotel"
-      class="img_bm229d"
+      class="img"
       src="http://localhost:9999/hotel-image-1.png"
     />
     <div
-      class="contentContainer_1ydb5eu"
+      class="contentContainer"
     >
       <h1>
         Iberostar Grand Salome
       </h1>
       <h2
-        class="h2_1tkgvlr"
+        class="h2"
       >
         Costa Adeje, Tenerife
       </h2>
       <div>
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
       </div>
       <ul
-        class="ul_tx6wom"
+        class="ul"
       >
         <li>
           <span>
@@ -67,22 +179,22 @@ exports[`Card it should render with sorts: default 1`] = `
         </li>
       </ul>
       <button
-        class="callToAction_55n7hg"
+        class="callToAction"
       >
         <span
-          class="actionText_131r5dh"
+          class="actionText"
         >
           Book now
         </span>
         <span
-          class="actionAmount_qtg89e"
+          class="actionAmount"
         >
           £3,136.50
         </span>
       </button>
     </div>
     <button
-      class="readMore_j9y440"
+      class="readMore"
       id="btn-read-more"
     >
       <strong>
@@ -95,15 +207,15 @@ exports[`Card it should render with sorts: default 1`] = `
     </button>
   </div>
   <div
-    class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
+    class="readMoreContent-isHidden"
   >
     <h3
-      class="h3_1ns9ks7"
+      class="h3"
     >
       Overview
     </h3>
     <p
-      class="p_fhs6vg"
+      class="p"
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
@@ -112,42 +224,152 @@ exports[`Card it should render with sorts: default 1`] = `
 `;
 
 exports[`Card when read more is clicked, it should show more content: with more content 1`] = `
+.card {
+  position: relative !important;
+  margin: 2rem 2rem 0 2rem !important;
+  width: 780px !important;
+  height: 300px !important;
+  background-color: whitesmoke !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+}
+
+.img {
+  min-width: 500px !important;
+  max-width: 500px !important;
+}
+
+.contentContainer {
+  margin: 1rem auto !important;
+  color: rgb(21, 47, 132) !important;
+  position: relative !important;
+}
+
+.h2 {
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+}
+
+.starIcon {
+  color: rgb(255, 220, 0) !important;
+}
+
+.ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  font-weight: lighter !important;
+  font-size: 0.8rem !important;
+  color: black !important;
+}
+
+.callToAction {
+  margin: 2rem auto !important;
+  padding: 0px !important;
+  position: absolute !important;
+  left: 0px !important;
+  right: 0px !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+  width: 160px !important;
+  height: 4rem !important;
+  border: none !important;
+  border-radius: 0.2rem !important;
+  cursor: pointer !important;
+}
+
+.actionText {
+  font-size: small !important;
+  display: block !important;
+}
+
+.actionAmount {
+  font-weight: bold !important;
+  font-size: medium !important;
+}
+
+.readMore {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  background-color: whitesmoke !important;
+  color: rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: small !important;
+  cursor: pointer !important;
+  border: none !important;
+}
+
+.readMore:hover {
+  color: rgb(21, 47, 132) !important;
+  background-color: rgb(255, 220, 0) !important;
+}
+
+.h3 {
+  font-size: small !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.p {
+  font-size: small !important;
+  font-weight: lighter !important;
+  line-height: 1.2rem !important;
+}
+
+.readMoreContent {
+  background-color: whitesmoke !important;
+  width: 780px !important;
+  margin: 0 2rem 2rem 2rem !important;
+  padding: 1rem !important;
+  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -moz-transition: transform 0.3s ease-out !important;
+  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
+  -webkit-transform: scaleY(1) !important;
+  -ms-transform: scaleY(1) !important;
+  transform: scaleY(1) !important;
+  -webkit-transform-origin: top !important;
+  -ms-transform-origin: top !important;
+  transform-origin: top !important;
+}
+
 <section>
   <div
-    class="card_pmicl5"
+    class="card"
   >
     <img
       alt="Image of the hotel"
-      class="img_bm229d"
+      class="img"
       src="http://localhost:9999/hotel-image-1.png"
     />
     <div
-      class="contentContainer_1ydb5eu"
+      class="contentContainer"
     >
       <h1>
         Iberostar Grand Salome
       </h1>
       <h2
-        class="h2_1tkgvlr"
+        class="h2"
       >
         Costa Adeje, Tenerife
       </h2>
       <div>
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
         <i
-          class="starIcon_17x7h34 fas fa-star"
+          class="starIcon fas fa-star"
         />
       </div>
       <ul
-        class="ul_tx6wom"
+        class="ul"
       >
         <li>
           <span>
@@ -178,22 +400,22 @@ exports[`Card when read more is clicked, it should show more content: with more 
         </li>
       </ul>
       <button
-        class="callToAction_55n7hg"
+        class="callToAction"
       >
         <span
-          class="actionText_131r5dh"
+          class="actionText"
         >
           Book now
         </span>
         <span
-          class="actionAmount_qtg89e"
+          class="actionAmount"
         >
           £3,136.50
         </span>
       </button>
     </div>
     <button
-      class="readMore_j9y440"
+      class="readMore"
       id="btn-read-more"
     >
       <strong>
@@ -206,15 +428,15 @@ exports[`Card when read more is clicked, it should show more content: with more 
     </button>
   </div>
   <div
-    class="readMoreContent_1aeiymr"
+    class="readMoreContent"
   >
     <h3
-      class="h3_1ns9ks7"
+      class="h3"
     >
       Overview
     </h3>
     <p
-      class="p_fhs6vg"
+      class="p"
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>

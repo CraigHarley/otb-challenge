@@ -1,20 +1,22 @@
 import React, {ReactElement} from 'react';
 import {css, StyleSheet} from "aphrodite";
 
+import config from "../../config";
+
 const styles = StyleSheet.create({
     readMore: {
         position: 'absolute',
         bottom: '0',
         left: '0',
         backgroundColor: 'whitesmoke',
-        color: '$primary',
+        color: config.styles.colors.primary,
         padding: '0.5rem 1rem',
         fontSize: 'small',
         cursor: 'pointer',
         border: 'none',
         ':hover': {
-            color: 'lighten($primary, 10%)',
-            backgroundColor: 'lighten($secondary, 10%)'
+            color: config.styles.colors.primary,
+            backgroundColor: config.styles.colors.secondary
         }
     }
 });

@@ -5,5 +5,8 @@ module.exports = {
   setupFilesAfterEnv: [
       './jest.setup.ts'
   ],
-  snapshotSerializers: ['enzyme-to-json/serializer']
+  snapshotSerializers: [
+      'enzyme-to-json/serializer',
+      'jest-aphrodite-react'
+  ]
 };
