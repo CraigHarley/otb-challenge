@@ -1,8 +1,8 @@
 import React from 'react';
 import {mount, render} from 'enzyme';
 
-import Card, {ICardProps} from '.';
-import {hotels} from '../../models';
+import Card, {ICardProps} from './index';
+import {hotels} from '../../../models';
 
 const defaultProps: ICardProps = {
     hotel: hotels[0]

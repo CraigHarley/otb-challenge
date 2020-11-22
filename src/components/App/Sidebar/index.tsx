@@ -1,9 +1,9 @@
 import React, {ReactElement} from 'react';
 import {css, StyleSheet} from 'aphrodite';
 
-import {ISort} from '../../types';
-import {SortTypes} from '../../types/enums';
-import config from '../../config'
+import {ISort} from '../../../types';
+import {SortTypes} from '../../../types/enums';
+import config from '../../../config'
 
 export interface ISidebarProps {
     setChosenSort: (sort: SortTypes) => void;

@@ -1,7 +1,7 @@
 import React, {ReactElement} from 'react';
 import {css, StyleSheet} from 'aphrodite';
 
-import config from '../../config';
+import config from '../../../config';
 
 const styles = StyleSheet.create({
     readMoreContent: {
@@ -9,9 +9,6 @@ const styles = StyleSheet.create({
         width: '780px',
         margin: '0 2rem 2rem 2rem',
         padding: '1rem',
-        transition: 'transform 0.3s ease-out',
-        transform: 'scaleY(1)',
-        transformOrigin: 'top',
     },
     h3: {
         fontSize: 'small',
@@ -23,9 +20,7 @@ const styles = StyleSheet.create({
         lineHeight: '1.2rem'
     },
     isHidden: {
-        transform: 'scaleY(0)',
-        height: 0,
-        overflow: 'hidden'
+        display: 'none'
     }
 });
 

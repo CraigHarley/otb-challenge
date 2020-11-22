@@ -2,8 +2,8 @@ import React, {ReactElement, useState} from 'react';
 import {format} from 'date-fns';
 import {css, StyleSheet} from 'aphrodite';
 
-import config from '../../config'
-import {IHotel, IListable} from '../../types';
+import config from '../../../config'
+import {IHotel, IListable} from '../../../types';
 import OccupancyMessage from './OccupancyMessage';
 import CallToAction from './CallToAction';
 import ReadMoreButton from './ReadMoreButton';

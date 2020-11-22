@@ -1,9 +1,9 @@
 import React from 'react';
 import {mount, render} from 'enzyme';
 
-import Sidebar from '.';
-import {SortTypes} from '../../types/enums';
-import {sorts} from '../../models';
+import Sidebar from './index';
+import {SortTypes} from '../../../types/enums';
+import {sorts} from '../../../models';
 
 const defaultProps = {
     setChosenSort: () => ({}),

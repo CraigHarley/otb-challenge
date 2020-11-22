@@ -3,8 +3,8 @@ import {css, StyleSheet} from 'aphrodite';
 
 import {SortTypes} from '../../types/enums';
 import {hotels, sorts} from '../../models';
-import Sidebar from '../Sidebar';
-import Card from '../Card';
+import Sidebar from './Sidebar';
+import Card from './Card';
 
 const styles = StyleSheet.create({
     gridContainer: {
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 })
 
 const App = (): ReactElement => {
-    const [chosenSort, setChosenSort] = useState(SortTypes.ALPHA);
+    const [chosenSort, setChosenSort] = useState(SortTypes.PRICE);
 
     return (
         <div className={css(styles.gridContainer)}>
