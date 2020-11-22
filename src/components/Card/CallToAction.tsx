@@ -29,7 +29,7 @@ export interface ICallToActionProps {
     price: string
 }
 
-export default ({price}: ICallToActionProps): ReactElement =>
+const CallToAction = ({price}: ICallToActionProps): ReactElement =>
     <button className={css(styles.callToAction)}>
         <span className={css(styles.actionText)}>
             Book now
@@ -38,3 +38,5 @@ export default ({price}: ICallToActionProps): ReactElement =>
             {price}
         </span>
     </button>
+
+export default CallToAction;

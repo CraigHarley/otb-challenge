@@ -20,8 +20,9 @@ exports[`Card it should render with sorts: default 1`] = `
 }
 
 .contentContainer {
-  margin: 1rem auto !important;
+  margin: 1rem !important;
   color: rgb(21, 47, 132) !important;
+  width: 100% !important;
   position: relative !important;
 }
 
@@ -43,18 +44,16 @@ exports[`Card it should render with sorts: default 1`] = `
 }
 
 .callToAction {
-  margin: 2rem auto !important;
   padding: 0px !important;
-  position: absolute !important;
-  left: 0px !important;
-  right: 0px !important;
   color: rgb(21, 47, 132) !important;
   background-color: rgb(255, 220, 0) !important;
-  width: 160px !important;
+  width: 100% !important;
   height: 4rem !important;
   border: none !important;
   border-radius: 0.2rem !important;
   cursor: pointer !important;
+  position: absolute !important;
+  bottom: 0px !important;
 }
 
 .actionText {
@@ -243,8 +242,9 @@ exports[`Card when read more is clicked, it should show more content: with more 
 }
 
 .contentContainer {
-  margin: 1rem auto !important;
+  margin: 1rem !important;
   color: rgb(21, 47, 132) !important;
+  width: 100% !important;
   position: relative !important;
 }
 
@@ -266,18 +266,16 @@ exports[`Card when read more is clicked, it should show more content: with more 
 }
 
 .callToAction {
-  margin: 2rem auto !important;
   padding: 0px !important;
-  position: absolute !important;
-  left: 0px !important;
-  right: 0px !important;
   color: rgb(21, 47, 132) !important;
   background-color: rgb(255, 220, 0) !important;
-  width: 160px !important;
+  width: 100% !important;
   height: 4rem !important;
   border: none !important;
   border-radius: 0.2rem !important;
   cursor: pointer !important;
+  position: absolute !important;
+  bottom: 0px !important;
 }
 
 .actionText {

@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     }
 });
 
-export default ({sorts, chosenSort, setChosenSort}: ISidebarProps): ReactElement => (
+const Sidebar = ({sorts, chosenSort, setChosenSort}: ISidebarProps): ReactElement => (
     <aside>
         <div className={css(styles.buttonContainer)}>
             {
@@ -76,3 +76,5 @@ export default ({sorts, chosenSort, setChosenSort}: ISidebarProps): ReactElement
         </div>
     </aside>
 );
+
+export default Sidebar;

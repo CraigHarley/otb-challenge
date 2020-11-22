@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     }
 });
 
-export default ({
+const Card = ({
                     hotel: {
                         image,
                         name,
@@ -112,3 +112,5 @@ export default ({
 
     );
 };
+
+export default Card;

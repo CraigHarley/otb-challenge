@@ -32,8 +32,13 @@ exports[`App it should render: default 1`] = `
   line-height: 1rem !important;
   font-size: small !important;
   background-color: rgb(21, 47, 132) !important;
-  color: white !important;
+  color: whitesmoke !important;
   border-top: none !important;
+}
+
+.button-isActive-firstButton:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
 }
 
 .button {
@@ -48,10 +53,16 @@ exports[`App it should render: default 1`] = `
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   border-top: 1px solid rgb(21, 47, 132) !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
+}
+
+.button:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
 }
 
 .card {
@@ -73,8 +84,9 @@ exports[`App it should render: default 1`] = `
 }
 
 .contentContainer {
-  margin: 1rem auto !important;
+  margin: 1rem !important;
   color: rgb(21, 47, 132) !important;
+  width: 100% !important;
   position: relative !important;
 }
 
@@ -96,18 +108,16 @@ exports[`App it should render: default 1`] = `
 }
 
 .callToAction {
-  margin: 2rem auto !important;
   padding: 0px !important;
-  position: absolute !important;
-  left: 0px !important;
-  right: 0px !important;
   color: rgb(21, 47, 132) !important;
   background-color: rgb(255, 220, 0) !important;
-  width: 160px !important;
+  width: 100% !important;
   height: 4rem !important;
   border: none !important;
   border-radius: 0.2rem !important;
   cursor: pointer !important;
+  position: absolute !important;
+  bottom: 0px !important;
 }
 
 .actionText {
@@ -779,8 +789,13 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   line-height: 1rem !important;
   font-size: small !important;
   background-color: rgb(21, 47, 132) !important;
-  color: white !important;
+  color: whitesmoke !important;
   border-top: none !important;
+}
+
+.button-isActive-firstButton:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
 }
 
 .button {
@@ -795,10 +810,16 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   border-top: 1px solid rgb(21, 47, 132) !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
+}
+
+.button:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
 }
 
 .card {
@@ -820,8 +841,9 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
 }
 
 .contentContainer {
-  margin: 1rem auto !important;
+  margin: 1rem !important;
   color: rgb(21, 47, 132) !important;
+  width: 100% !important;
   position: relative !important;
 }
 
@@ -843,18 +865,16 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
 }
 
 .callToAction {
-  margin: 2rem auto !important;
   padding: 0px !important;
-  position: absolute !important;
-  left: 0px !important;
-  right: 0px !important;
   color: rgb(21, 47, 132) !important;
   background-color: rgb(255, 220, 0) !important;
-  width: 160px !important;
+  width: 100% !important;
   height: 4rem !important;
   border: none !important;
   border-radius: 0.2rem !important;
   cursor: pointer !important;
+  position: absolute !important;
+  bottom: 0px !important;
 }
 
 .actionText {
@@ -1523,10 +1543,16 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   border-top: 1px solid rgb(21, 47, 132) !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
+}
+
+.button:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
 }
 
 .card {
@@ -1548,8 +1574,9 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
 }
 
 .contentContainer {
-  margin: 1rem auto !important;
+  margin: 1rem !important;
   color: rgb(21, 47, 132) !important;
+  width: 100% !important;
   position: relative !important;
 }
 
@@ -1571,18 +1598,16 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
 }
 
 .callToAction {
-  margin: 2rem auto !important;
   padding: 0px !important;
-  position: absolute !important;
-  left: 0px !important;
-  right: 0px !important;
   color: rgb(21, 47, 132) !important;
   background-color: rgb(255, 220, 0) !important;
-  width: 160px !important;
+  width: 100% !important;
   height: 4rem !important;
   border: none !important;
   border-radius: 0.2rem !important;
   cursor: pointer !important;
+  position: absolute !important;
+  bottom: 0px !important;
 }
 
 .actionText {
@@ -1653,10 +1678,16 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
   border-top: none !important;
+}
+
+.button-firstButton:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
 }
 
 .button-isActive {
@@ -1675,7 +1706,12 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   line-height: 1rem !important;
   font-size: small !important;
   background-color: rgb(21, 47, 132) !important;
-  color: white !important;
+  color: whitesmoke !important;
+}
+
+.button-isActive:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
 }
 
 <div
@@ -2288,10 +2324,16 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   border-top: 1px solid rgb(21, 47, 132) !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
+}
+
+.button:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
 }
 
 .card {
@@ -2313,8 +2355,9 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
 }
 
 .contentContainer {
-  margin: 1rem auto !important;
+  margin: 1rem !important;
   color: rgb(21, 47, 132) !important;
+  width: 100% !important;
   position: relative !important;
 }
 
@@ -2336,18 +2379,16 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
 }
 
 .callToAction {
-  margin: 2rem auto !important;
   padding: 0px !important;
-  position: absolute !important;
-  left: 0px !important;
-  right: 0px !important;
   color: rgb(21, 47, 132) !important;
   background-color: rgb(255, 220, 0) !important;
-  width: 160px !important;
+  width: 100% !important;
   height: 4rem !important;
   border: none !important;
   border-radius: 0.2rem !important;
   cursor: pointer !important;
+  position: absolute !important;
+  bottom: 0px !important;
 }
 
 .actionText {
@@ -2418,13 +2459,19 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
   border-top: none !important;
 }
 
-.button-o_O-isActive_1a0itbg {
+.button-firstButton:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.button-o_O-isActive_zojkvj {
   text-transform: lowercase !important;
   text-align: left !important;
   -webkit-appearance: none !important;
@@ -2440,7 +2487,12 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   line-height: 1rem !important;
   font-size: small !important;
   background-color: rgb(21, 47, 132) !important;
-  color: white !important;
+  color: whitesmoke !important;
+}
+
+.button-o_O-isActive_zojkvj:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
 }
 
 <div
@@ -2477,7 +2529,7 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
         />
       </button>
       <button
-        class="button-o_O-isActive_1a0itbg"
+        class="button-o_O-isActive_zojkvj"
         name="btn-sort-2"
       >
         Sort 

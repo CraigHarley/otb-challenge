@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     }
 })
 
-export default (): ReactElement => {
+const App = (): ReactElement => {
     const [chosenSort, setChosenSort] = useState(SortTypes.ALPHA);
 
     return (
@@ -39,3 +39,5 @@ export default (): ReactElement => {
         </div>
     );
 };
+
+export default App;

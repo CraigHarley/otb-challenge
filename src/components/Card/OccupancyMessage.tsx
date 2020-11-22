@@ -6,7 +6,7 @@ export interface IOccupancyMessageProps {
     infants: number;
 }
 
-export default ({adults, children, infants}: IOccupancyMessageProps): ReactElement => {
+const OccupancyMessage = ({adults, children, infants}: IOccupancyMessageProps): ReactElement => {
     if (adults && !children && !infants) {
         return (
             <span>
@@ -62,3 +62,5 @@ const infantMessage = (count: number): ReactElement => (
 // But it's two lines vs a whole dep.
 const pluralize = (original: string, count: number): string => count === 1 ? original : original + 's';
 const pluralizeChildren = (count: number): string => count === 1 ? 'child' : 'children';
+
+export default OccupancyMessage;

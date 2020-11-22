@@ -19,10 +19,16 @@ exports[`Sidebar it should render with sorts: default 1`] = `
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
   border-top: none !important;
+}
+
+.button-firstButton:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
 }
 
 .button {
@@ -37,13 +43,19 @@ exports[`Sidebar it should render with sorts: default 1`] = `
   height: 3rem !important;
   min-width: 100% !important;
   color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
   border-top: 1px solid rgb(21, 47, 132) !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
 }
 
-.button-o_O-isActive_1a0itbg {
+.button:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.button-o_O-isActive_zojkvj {
   text-transform: lowercase !important;
   text-align: left !important;
   -webkit-appearance: none !important;
@@ -59,7 +71,12 @@ exports[`Sidebar it should render with sorts: default 1`] = `
   line-height: 1rem !important;
   font-size: small !important;
   background-color: rgb(21, 47, 132) !important;
-  color: white !important;
+  color: whitesmoke !important;
+}
+
+.button-o_O-isActive_zojkvj:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
 }
 
 <aside>
@@ -93,7 +110,7 @@ exports[`Sidebar it should render with sorts: default 1`] = `
       />
     </button>
     <button
-      class="button-o_O-isActive_1a0itbg"
+      class="button-o_O-isActive_zojkvj"
       name="btn-sort-2"
     >
       Sort 

@@ -26,7 +26,7 @@ export interface IReadMoreButtonProps {
     isShowingMoreInfo: boolean;
 }
 
-export default ({setIsShowingMoreInfo, isShowingMoreInfo}: IReadMoreButtonProps): ReactElement => (
+const ReadMoreButton = ({setIsShowingMoreInfo, isShowingMoreInfo}: IReadMoreButtonProps): ReactElement => (
     <button
         id='btn-read-more'
         className={css(styles.readMore)}
@@ -40,3 +40,5 @@ export default ({setIsShowingMoreInfo, isShowingMoreInfo}: IReadMoreButtonProps)
         }
     </button>
 )
+
+export default ReadMoreButton;
