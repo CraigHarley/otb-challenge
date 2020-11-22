@@ -3,6 +3,9 @@ import {ReactElement} from 'react';
 
 export interface IAppConfig {
     ASSET_URL: string;
+    styles: {
+        colors: any
+    }
 }
 
 export interface IHotel {

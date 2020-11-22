@@ -58,9 +58,9 @@ exports[`OccupancyMessage should function correctly for all the valid occupancy 
   </strong>
    adults & 
   <strong>
-    0
+    1
   </strong>
-   children
+   child
 </span>
 `;
 
@@ -71,9 +71,9 @@ exports[`OccupancyMessage should function correctly for all the valid occupancy 
   </strong>
    adults & 
   <strong>
-    0
+    1
   </strong>
-   children
+   child
 </span>
 `;
 

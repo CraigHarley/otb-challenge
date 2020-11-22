@@ -2,16 +2,16 @@
 
 exports[`App it should render: default 1`] = `
 <div
-  class="grid-container"
+  class="gridContainer_eg8q4b"
 >
   <aside
-    class="sidebar"
+    class="container_1hppsak"
   >
     <div
-      class="button-container"
+      class="buttonContainer_15ic8la"
     >
       <button
-        class="is-active"
+        class="button_1nssjj9-o_O-isActive_eesrj3-o_O-firstButton_4ebdec"
       >
         Sort 
         <strong>
@@ -22,7 +22,9 @@ exports[`App it should render: default 1`] = `
           class="float-right fas fa-sort-alpha-down"
         />
       </button>
-      <button>
+      <button
+        class="button_1nssjj9"
+      >
         Sort 
         <strong>
           by price
@@ -32,7 +34,9 @@ exports[`App it should render: default 1`] = `
           class="float-right fas fa-pound-sign"
         />
       </button>
-      <button>
+      <button
+        class="button_1nssjj9"
+      >
         Sort 
         <strong>
           by star rating
@@ -45,40 +49,44 @@ exports[`App it should render: default 1`] = `
     </div>
   </aside>
   <article
-    class="content"
+    class="content_9o1dcv"
   >
     <section>
       <div
-        class="card"
+        class="card_pmicl5"
       >
         <img
           alt="Image of the hotel"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
-          class="content-container"
+          class="contentContainer_1ydb5eu"
         >
           <h1>
             Iberostar Grand Salome
           </h1>
-          <h2>
+          <h2
+            class="h2_1tkgvlr"
+          >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
           </div>
-          <ul>
+          <ul
+            class="ul_tx6wom"
+          >
             <li>
               <span>
                 <strong>
@@ -108,22 +116,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="call-to-action"
+            class="callToAction_55n7hg"
           >
             <span
-              class="action-text"
+              class="actionText_131r5dh"
             >
               Book now
             </span>
             <span
-              class="action-amount"
+              class="actionAmount_qtg89e"
             >
               £3,136.50
             </span>
           </button>
         </div>
         <button
-          class="read-more"
+          class="readMore_j9y440"
         >
           <strong>
             Read more
@@ -135,51 +143,59 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="read-more-content is-hidden"
+        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
       >
-        <h3>
+        <h3
+          class="h3_1ns9ks7"
+        >
           Overview
         </h3>
-        <p>
+        <p
+          class="p_fhs6vg"
+        >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
     </section>
     <section>
       <div
-        class="card"
+        class="card_pmicl5"
       >
         <img
           alt="Image of the hotel"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
-          class="content-container"
+          class="contentContainer_1ydb5eu"
         >
           <h1>
             Really Fancy Hotel
           </h1>
-          <h2>
+          <h2
+            class="h2_1tkgvlr"
+          >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
           </div>
-          <ul>
+          <ul
+            class="ul_tx6wom"
+          >
             <li>
               <span>
                 <strong>
@@ -205,22 +221,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="call-to-action"
+            class="callToAction_55n7hg"
           >
             <span
-              class="action-text"
+              class="actionText_131r5dh"
             >
               Book now
             </span>
             <span
-              class="action-amount"
+              class="actionAmount_qtg89e"
             >
               £2,136.50
             </span>
           </button>
         </div>
         <button
-          class="read-more"
+          class="readMore_j9y440"
         >
           <strong>
             Read more
@@ -232,51 +248,59 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="read-more-content is-hidden"
+        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
       >
-        <h3>
+        <h3
+          class="h3_1ns9ks7"
+        >
           Overview
         </h3>
-        <p>
+        <p
+          class="p_fhs6vg"
+        >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
     </section>
     <section>
       <div
-        class="card"
+        class="card_pmicl5"
       >
         <img
           alt="Image of the hotel"
           src="http://localhost:9999/hotel-image-1.png"
         />
         <div
-          class="content-container"
+          class="contentContainer_1ydb5eu"
         >
           <h1>
             Really Fancy Hotel v2
           </h1>
-          <h2>
+          <h2
+            class="h2_1tkgvlr"
+          >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
           </div>
-          <ul>
+          <ul
+            class="ul_tx6wom"
+          >
             <li>
               <span>
                 <strong>
@@ -302,22 +326,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="call-to-action"
+            class="callToAction_55n7hg"
           >
             <span
-              class="action-text"
+              class="actionText_131r5dh"
             >
               Book now
             </span>
             <span
-              class="action-amount"
+              class="actionAmount_qtg89e"
             >
               £2,136.50
             </span>
           </button>
         </div>
         <button
-          class="read-more"
+          class="readMore_j9y440"
         >
           <strong>
             Read more
@@ -329,48 +353,56 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="read-more-content is-hidden"
+        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
       >
-        <h3>
+        <h3
+          class="h3_1ns9ks7"
+        >
           Overview
         </h3>
-        <p>
+        <p
+          class="p_fhs6vg"
+        >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
     </section>
     <section>
       <div
-        class="card"
+        class="card_pmicl5"
       >
         <img
           alt="Image of the hotel"
           src="http://localhost:9999/hotel-image-3.png"
         />
         <div
-          class="content-container"
+          class="contentContainer_1ydb5eu"
         >
           <h1>
             Swank-ville
           </h1>
-          <h2>
+          <h2
+            class="h2_1tkgvlr"
+          >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
           </div>
-          <ul>
+          <ul
+            class="ul_tx6wom"
+          >
             <li>
               <span>
                 <strong>
@@ -396,22 +428,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="call-to-action"
+            class="callToAction_55n7hg"
           >
             <span
-              class="action-text"
+              class="actionText_131r5dh"
             >
               Book now
             </span>
             <span
-              class="action-amount"
+              class="actionAmount_qtg89e"
             >
               £5,136.50
             </span>
           </button>
         </div>
         <button
-          class="read-more"
+          class="readMore_j9y440"
         >
           <strong>
             Read more
@@ -423,42 +455,50 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="read-more-content is-hidden"
+        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
       >
-        <h3>
+        <h3
+          class="h3_1ns9ks7"
+        >
           Overview
         </h3>
-        <p>
+        <p
+          class="p_fhs6vg"
+        >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
     </section>
     <section>
       <div
-        class="card"
+        class="card_pmicl5"
       >
         <img
           alt="Image of the hotel"
           src="http://localhost:9999/hotel-image-2.png"
         />
         <div
-          class="content-container"
+          class="contentContainer_1ydb5eu"
         >
           <h1>
             Wow - so fancy
           </h1>
-          <h2>
+          <h2
+            class="h2_1tkgvlr"
+          >
             Costa Adeje, Tenerife
           </h2>
           <div>
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
             <i
-              class="fas fa-star"
+              class="starIcon_17x7h34 fas fa-star"
             />
           </div>
-          <ul>
+          <ul
+            class="ul_tx6wom"
+          >
             <li>
               <span>
                 <strong>
@@ -466,9 +506,9 @@ exports[`App it should render: default 1`] = `
                 </strong>
                  adults & 
                 <strong>
-                  0
+                  1
                 </strong>
-                 children
+                 child
               </span>
             </li>
             <li>
@@ -488,22 +528,22 @@ exports[`App it should render: default 1`] = `
             </li>
           </ul>
           <button
-            class="call-to-action"
+            class="callToAction_55n7hg"
           >
             <span
-              class="action-text"
+              class="actionText_131r5dh"
             >
               Book now
             </span>
             <span
-              class="action-amount"
+              class="actionAmount_qtg89e"
             >
               £1,136.50
             </span>
           </button>
         </div>
         <button
-          class="read-more"
+          class="readMore_j9y440"
         >
           <strong>
             Read more
@@ -515,1599 +555,16 @@ exports[`App it should render: default 1`] = `
         </button>
       </div>
       <div
-        class="read-more-content is-hidden"
+        class="readMoreContent_1aeiymr-o_O-isHidden_iq1cgs"
       >
-        <h3>
+        <h3
+          class="h3_1ns9ks7"
+        >
           Overview
         </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-  </article>
-</div>
-`;
-
-exports[`App when different sorts are clicked, it should rearrange the hotels: sorting: 0 1`] = `
-<div
-  class="grid-container"
->
-  <aside
-    class="sidebar"
-  >
-    <div
-      class="button-container"
-    >
-      <button
-        class="is-active"
-      >
-        Sort 
-        <strong>
-          alphabetically
-        </strong>
-         
-        <i
-          class="float-right fas fa-sort-alpha-down"
-        />
-      </button>
-      <button>
-        Sort 
-        <strong>
-          by price
-        </strong>
-         
-        <i
-          class="float-right fas fa-pound-sign"
-        />
-      </button>
-      <button>
-        Sort 
-        <strong>
-          by star rating
-        </strong>
-         
-        <i
-          class="float-right fas fa-star"
-        />
-      </button>
-    </div>
-  </aside>
-  <article
-    class="content"
-  >
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
+        <p
+          class="p_fhs6vg"
         >
-          <h1>
-            Iberostar Grand Salome
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults & 
-                <strong>
-                  1
-                </strong>
-                 infant
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £3,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Really Fancy Hotel
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £2,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Really Fancy Hotel v2
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £2,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-3.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Swank-ville
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  1
-                </strong>
-                 adult
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £5,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-2.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Wow - so fancy
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults & 
-                <strong>
-                  0
-                </strong>
-                 children
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £1,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-  </article>
-</div>
-`;
-
-exports[`App when different sorts are clicked, it should rearrange the hotels: sorting: 1 1`] = `
-<div
-  class="grid-container"
->
-  <aside
-    class="sidebar"
-  >
-    <div
-      class="button-container"
-    >
-      <button>
-        Sort 
-        <strong>
-          alphabetically
-        </strong>
-         
-        <i
-          class="float-right fas fa-sort-alpha-down"
-        />
-      </button>
-      <button
-        class="is-active"
-      >
-        Sort 
-        <strong>
-          by price
-        </strong>
-         
-        <i
-          class="float-right fas fa-pound-sign"
-        />
-      </button>
-      <button>
-        Sort 
-        <strong>
-          by star rating
-        </strong>
-         
-        <i
-          class="float-right fas fa-star"
-        />
-      </button>
-    </div>
-  </aside>
-  <article
-    class="content"
-  >
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-2.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Wow - so fancy
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults & 
-                <strong>
-                  0
-                </strong>
-                 children
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £1,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Really Fancy Hotel
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £2,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Really Fancy Hotel v2
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £2,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Iberostar Grand Salome
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults & 
-                <strong>
-                  1
-                </strong>
-                 infant
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £3,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-3.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Swank-ville
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  1
-                </strong>
-                 adult
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £5,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-  </article>
-</div>
-`;
-
-exports[`App when different sorts are clicked, it should rearrange the hotels: sorting: 2 1`] = `
-<div
-  class="grid-container"
->
-  <aside
-    class="sidebar"
-  >
-    <div
-      class="button-container"
-    >
-      <button>
-        Sort 
-        <strong>
-          alphabetically
-        </strong>
-         
-        <i
-          class="float-right fas fa-sort-alpha-down"
-        />
-      </button>
-      <button>
-        Sort 
-        <strong>
-          by price
-        </strong>
-         
-        <i
-          class="float-right fas fa-pound-sign"
-        />
-      </button>
-      <button
-        class="is-active"
-      >
-        Sort 
-        <strong>
-          by star rating
-        </strong>
-         
-        <i
-          class="float-right fas fa-star"
-        />
-      </button>
-    </div>
-  </aside>
-  <article
-    class="content"
-  >
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Really Fancy Hotel
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £2,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Really Fancy Hotel v2
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £2,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-1.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Iberostar Grand Salome
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults & 
-                <strong>
-                  1
-                </strong>
-                 infant
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £3,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-3.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Swank-ville
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  1
-                </strong>
-                 adult
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £5,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          src="http://localhost:9999/hotel-image-2.png"
-        />
-        <div
-          class="content-container"
-        >
-          <h1>
-            Wow - so fancy
-          </h1>
-          <h2>
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="fas fa-star"
-            />
-            <i
-              class="fas fa-star"
-            />
-          </div>
-          <ul>
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults & 
-                <strong>
-                  0
-                </strong>
-                 children
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="call-to-action"
-          >
-            <span
-              class="action-text"
-            >
-              Book now
-            </span>
-            <span
-              class="action-amount"
-            >
-              £1,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="read-more-content is-hidden"
-      >
-        <h3>
-          Overview
-        </h3>
-        <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>

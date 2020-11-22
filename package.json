@@ -20,6 +20,7 @@
     "ts-jest": "^26.4.4"
   },
   "dependencies": {
+    "aphrodite": "^2.4.0",
     "date-fns": "^2.16.1",
     "express": "^4.17.1",
     "react": "^16.14.0",
