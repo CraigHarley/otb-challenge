@@ -27,17 +27,26 @@ const styles = StyleSheet.create({
         height: '3rem',
         minWidth: '100%',
         color: config.styles.colors.primary,
+        backgroundColor: 'whitesmoke',
         borderTop: `1px solid ${config.styles.colors.primary}`,
         padding: '0.5rem 1rem 0.5rem 1rem',
         lineHeight: '1rem',
         fontSize: 'small',
+        ':hover': {
+            backgroundColor: config.styles.colors.secondary,
+            color: config.styles.colors.primary,
+        }
     },
     firstButton: {
         borderTop: 'none'
     },
     isActive: {
         backgroundColor: config.styles.colors.primary,
-        color: 'white',
+        color: 'whitesmoke',
+        ':hover': {
+            backgroundColor: config.styles.colors.primary,
+            color: 'whitesmoke',
+        }
     }
 });
 
