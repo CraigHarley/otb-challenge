@@ -17,7 +17,7 @@ exports[`App it should render: default 1`] = `
   margin: 2rem 5rem !important;
 }
 
-.button-isActive-firstButton {
+.button-firstButton {
   text-transform: lowercase !important;
   text-align: left !important;
   -webkit-appearance: none !important;
@@ -28,15 +28,39 @@ exports[`App it should render: default 1`] = `
   border: none !important;
   height: 3rem !important;
   min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  border-top: none !important;
+}
+
+.button-firstButton:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.button-isActive {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
   padding: 0.5rem 1rem 0.5rem 1rem !important;
   line-height: 1rem !important;
   font-size: small !important;
   background-color: rgb(21, 47, 132) !important;
   color: whitesmoke !important;
-  border-top: none !important;
 }
 
-.button-isActive-firstButton:hover {
+.button-isActive:hover {
   background-color: rgb(21, 47, 132) !important;
   color: whitesmoke !important;
 }
@@ -152,17 +176,7 @@ exports[`App it should render: default 1`] = `
   width: 780px !important;
   margin: 0 2rem 2rem 2rem !important;
   padding: 1rem !important;
-  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -moz-transition: transform 0.3s ease-out !important;
-  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -webkit-transform-origin: top !important;
-  -ms-transform-origin: top !important;
-  transform-origin: top !important;
-  -webkit-transform: scaleY(0) !important;
-  -ms-transform: scaleY(0) !important;
-  transform: scaleY(0) !important;
-  height: 0px !important;
-  overflow: hidden !important;
+  display: none !important;
 }
 
 .h3 {
@@ -184,7 +198,7 @@ exports[`App it should render: default 1`] = `
       class="buttonContainer"
     >
       <button
-        class="button-isActive-firstButton"
+        class="button-firstButton"
         name="btn-sort-0"
       >
         Sort 
@@ -197,7 +211,7 @@ exports[`App it should render: default 1`] = `
         />
       </button>
       <button
-        class="button"
+        class="button-isActive"
         name="btn-sort-1"
       >
         Sort 
@@ -232,13 +246,13 @@ exports[`App it should render: default 1`] = `
         <img
           alt="Image of the hotel"
           class="img"
-          src="http://localhost:9999/hotel-image-1.png"
+          src="http://localhost:9999/hotel-image-2.png"
         />
         <div
           class="contentContainer"
         >
           <h1>
-            Iberostar Grand Salome
+            Wow - so fancy
           </h1>
           <h2
             class="h2"
@@ -246,12 +260,6 @@ exports[`App it should render: default 1`] = `
             Costa Adeje, Tenerife
           </h2>
           <div>
-            <i
-              class="starIcon fas fa-star"
-            />
-            <i
-              class="starIcon fas fa-star"
-            />
             <i
               class="starIcon fas fa-star"
             />
@@ -271,7 +279,7 @@ exports[`App it should render: default 1`] = `
                 <strong>
                   1
                 </strong>
-                 infant
+                 child
               </span>
             </li>
             <li>
@@ -301,7 +309,7 @@ exports[`App it should render: default 1`] = `
             <span
               class="actionAmount"
             >
-              £3,136.50
+              £1,136.50
             </span>
           </button>
         </div>
@@ -554,6 +562,114 @@ exports[`App it should render: default 1`] = `
         <img
           alt="Image of the hotel"
           class="img"
+          src="http://localhost:9999/hotel-image-1.png"
+        />
+        <div
+          class="contentContainer"
+        >
+          <h1>
+            Iberostar Grand Salome
+          </h1>
+          <h2
+            class="h2"
+          >
+            Costa Adeje, Tenerife
+          </h2>
+          <div>
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+            <i
+              class="starIcon fas fa-star"
+            />
+          </div>
+          <ul
+            class="ul"
+          >
+            <li>
+              <span>
+                <strong>
+                  2
+                </strong>
+                 adults & 
+                <strong>
+                  1
+                </strong>
+                 infant
+              </span>
+            </li>
+            <li>
+              <strong>
+                3rd July 2019
+              </strong>
+               for 
+              <strong>
+                7 days
+              </strong>
+            </li>
+            <li>
+              departing from 
+              <strong>
+                East Midlands
+              </strong>
+            </li>
+          </ul>
+          <button
+            class="callToAction"
+          >
+            <span
+              class="actionText"
+            >
+              Book now
+            </span>
+            <span
+              class="actionAmount"
+            >
+              £3,136.50
+            </span>
+          </button>
+        </div>
+        <button
+          class="readMore"
+          id="btn-read-more"
+        >
+          <strong>
+            Read more
+          </strong>
+           about this hotel  
+          <i
+            class="fas fa-angle-right"
+          />
+        </button>
+      </div>
+      <div
+        class="readMoreContent-isHidden"
+      >
+        <h3
+          class="h3"
+        >
+          Overview
+        </h3>
+        <p
+          class="p"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div
+        class="card"
+      >
+        <img
+          alt="Image of the hotel"
+          class="img"
           src="http://localhost:9999/hotel-image-3.png"
         />
         <div
@@ -651,108 +767,6 @@ exports[`App it should render: default 1`] = `
         </p>
       </div>
     </section>
-    <section>
-      <div
-        class="card"
-      >
-        <img
-          alt="Image of the hotel"
-          class="img"
-          src="http://localhost:9999/hotel-image-2.png"
-        />
-        <div
-          class="contentContainer"
-        >
-          <h1>
-            Wow - so fancy
-          </h1>
-          <h2
-            class="h2"
-          >
-            Costa Adeje, Tenerife
-          </h2>
-          <div>
-            <i
-              class="starIcon fas fa-star"
-            />
-            <i
-              class="starIcon fas fa-star"
-            />
-          </div>
-          <ul
-            class="ul"
-          >
-            <li>
-              <span>
-                <strong>
-                  2
-                </strong>
-                 adults & 
-                <strong>
-                  1
-                </strong>
-                 child
-              </span>
-            </li>
-            <li>
-              <strong>
-                3rd July 2019
-              </strong>
-               for 
-              <strong>
-                7 days
-              </strong>
-            </li>
-            <li>
-              departing from 
-              <strong>
-                East Midlands
-              </strong>
-            </li>
-          </ul>
-          <button
-            class="callToAction"
-          >
-            <span
-              class="actionText"
-            >
-              Book now
-            </span>
-            <span
-              class="actionAmount"
-            >
-              £1,136.50
-            </span>
-          </button>
-        </div>
-        <button
-          class="readMore"
-          id="btn-read-more"
-        >
-          <strong>
-            Read more
-          </strong>
-           about this hotel  
-          <i
-            class="fas fa-angle-right"
-          />
-        </button>
-      </div>
-      <div
-        class="readMoreContent-isHidden"
-      >
-        <h3
-          class="h3"
-        >
-          Overview
-        </h3>
-        <p
-          class="p"
-        >
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-      </div>
-    </section>
   </article>
 </div>
 `;
@@ -772,30 +786,6 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   min-width: 200px !important;
   max-width: 200px !important;
   margin: 2rem 5rem !important;
-}
-
-.button-isActive-firstButton {
-  text-transform: lowercase !important;
-  text-align: left !important;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  border: none !important;
-  height: 3rem !important;
-  min-width: 100% !important;
-  padding: 0.5rem 1rem 0.5rem 1rem !important;
-  line-height: 1rem !important;
-  font-size: small !important;
-  background-color: rgb(21, 47, 132) !important;
-  color: whitesmoke !important;
-  border-top: none !important;
-}
-
-.button-isActive-firstButton:hover {
-  background-color: rgb(21, 47, 132) !important;
-  color: whitesmoke !important;
 }
 
 .button {
@@ -909,17 +899,7 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   width: 780px !important;
   margin: 0 2rem 2rem 2rem !important;
   padding: 1rem !important;
-  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -moz-transition: transform 0.3s ease-out !important;
-  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -webkit-transform-origin: top !important;
-  -ms-transform-origin: top !important;
-  transform-origin: top !important;
-  -webkit-transform: scaleY(0) !important;
-  -ms-transform: scaleY(0) !important;
-  transform: scaleY(0) !important;
-  height: 0px !important;
-  overflow: hidden !important;
+  display: none !important;
 }
 
 .h3 {
@@ -931,6 +911,30 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   font-size: small !important;
   font-weight: lighter !important;
   line-height: 1.2rem !important;
+}
+
+.button-isActive-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
+  border-top: none !important;
+}
+
+.button-isActive-firstButton:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
 }
 
 <div
@@ -1531,6 +1535,54 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   margin: 2rem 5rem !important;
 }
 
+.button-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  border-top: none !important;
+}
+
+.button-firstButton:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.button-isActive {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
+}
+
+.button-isActive:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
+}
+
 .button {
   text-transform: lowercase !important;
   text-align: left !important;
@@ -1642,17 +1694,7 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   width: 780px !important;
   margin: 0 2rem 2rem 2rem !important;
   padding: 1rem !important;
-  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -moz-transition: transform 0.3s ease-out !important;
-  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -webkit-transform-origin: top !important;
-  -ms-transform-origin: top !important;
-  transform-origin: top !important;
-  -webkit-transform: scaleY(0) !important;
-  -ms-transform: scaleY(0) !important;
-  transform: scaleY(0) !important;
-  height: 0px !important;
-  overflow: hidden !important;
+  display: none !important;
 }
 
 .h3 {
@@ -1664,54 +1706,6 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   font-size: small !important;
   font-weight: lighter !important;
   line-height: 1.2rem !important;
-}
-
-.button-firstButton {
-  text-transform: lowercase !important;
-  text-align: left !important;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  border: none !important;
-  height: 3rem !important;
-  min-width: 100% !important;
-  color: rgb(21, 47, 132) !important;
-  background-color: whitesmoke !important;
-  padding: 0.5rem 1rem 0.5rem 1rem !important;
-  line-height: 1rem !important;
-  font-size: small !important;
-  border-top: none !important;
-}
-
-.button-firstButton:hover {
-  background-color: rgb(255, 220, 0) !important;
-  color: rgb(21, 47, 132) !important;
-}
-
-.button-isActive {
-  text-transform: lowercase !important;
-  text-align: left !important;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  border: none !important;
-  height: 3rem !important;
-  min-width: 100% !important;
-  border-top: 1px solid rgb(21, 47, 132) !important;
-  padding: 0.5rem 1rem 0.5rem 1rem !important;
-  line-height: 1rem !important;
-  font-size: small !important;
-  background-color: rgb(21, 47, 132) !important;
-  color: whitesmoke !important;
-}
-
-.button-isActive:hover {
-  background-color: rgb(21, 47, 132) !important;
-  color: whitesmoke !important;
 }
 
 <div
@@ -2312,6 +2306,54 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   margin: 2rem 5rem !important;
 }
 
+.button-firstButton {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  color: rgb(21, 47, 132) !important;
+  background-color: whitesmoke !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  border-top: none !important;
+}
+
+.button-firstButton:hover {
+  background-color: rgb(255, 220, 0) !important;
+  color: rgb(21, 47, 132) !important;
+}
+
+.button-o_O-isActive_zojkvj {
+  text-transform: lowercase !important;
+  text-align: left !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  border: none !important;
+  height: 3rem !important;
+  min-width: 100% !important;
+  border-top: 1px solid rgb(21, 47, 132) !important;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  line-height: 1rem !important;
+  font-size: small !important;
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
+}
+
+.button-o_O-isActive_zojkvj:hover {
+  background-color: rgb(21, 47, 132) !important;
+  color: whitesmoke !important;
+}
+
 .button {
   text-transform: lowercase !important;
   text-align: left !important;
@@ -2423,17 +2465,7 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   width: 780px !important;
   margin: 0 2rem 2rem 2rem !important;
   padding: 1rem !important;
-  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -moz-transition: transform 0.3s ease-out !important;
-  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -webkit-transform-origin: top !important;
-  -ms-transform-origin: top !important;
-  transform-origin: top !important;
-  -webkit-transform: scaleY(0) !important;
-  -ms-transform: scaleY(0) !important;
-  transform: scaleY(0) !important;
-  height: 0px !important;
-  overflow: hidden !important;
+  display: none !important;
 }
 
 .h3 {
@@ -2445,54 +2477,6 @@ exports[`App when different sorts are clicked, it should rearrange the hotels: s
   font-size: small !important;
   font-weight: lighter !important;
   line-height: 1.2rem !important;
-}
-
-.button-firstButton {
-  text-transform: lowercase !important;
-  text-align: left !important;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  border: none !important;
-  height: 3rem !important;
-  min-width: 100% !important;
-  color: rgb(21, 47, 132) !important;
-  background-color: whitesmoke !important;
-  padding: 0.5rem 1rem 0.5rem 1rem !important;
-  line-height: 1rem !important;
-  font-size: small !important;
-  border-top: none !important;
-}
-
-.button-firstButton:hover {
-  background-color: rgb(255, 220, 0) !important;
-  color: rgb(21, 47, 132) !important;
-}
-
-.button-o_O-isActive_zojkvj {
-  text-transform: lowercase !important;
-  text-align: left !important;
-  -webkit-appearance: none !important;
-  -moz-appearance: none !important;
-  appearance: none !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-  border: none !important;
-  height: 3rem !important;
-  min-width: 100% !important;
-  border-top: 1px solid rgb(21, 47, 132) !important;
-  padding: 0.5rem 1rem 0.5rem 1rem !important;
-  line-height: 1rem !important;
-  font-size: small !important;
-  background-color: rgb(21, 47, 132) !important;
-  color: whitesmoke !important;
-}
-
-.button-o_O-isActive_zojkvj:hover {
-  background-color: rgb(21, 47, 132) !important;
-  color: whitesmoke !important;
 }
 
 <div

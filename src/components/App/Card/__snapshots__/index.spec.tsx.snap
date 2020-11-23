@@ -88,17 +88,7 @@ exports[`Card it should render with sorts: default 1`] = `
   width: 780px !important;
   margin: 0 2rem 2rem 2rem !important;
   padding: 1rem !important;
-  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -moz-transition: transform 0.3s ease-out !important;
-  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -webkit-transform-origin: top !important;
-  -ms-transform-origin: top !important;
-  transform-origin: top !important;
-  -webkit-transform: scaleY(0) !important;
-  -ms-transform: scaleY(0) !important;
-  transform: scaleY(0) !important;
-  height: 0px !important;
-  overflow: hidden !important;
+  display: none !important;
 }
 
 .h3 {
@@ -321,15 +311,6 @@ exports[`Card when read more is clicked, it should show more content: with more 
   width: 780px !important;
   margin: 0 2rem 2rem 2rem !important;
   padding: 1rem !important;
-  -webkit-transition: -webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -moz-transition: transform 0.3s ease-out !important;
-  transition: -ms-transform 0.3s ease-out,-webkit-transform 0.3s ease-out,transform 0.3s ease-out !important;
-  -webkit-transform: scaleY(1) !important;
-  -ms-transform: scaleY(1) !important;
-  transform: scaleY(1) !important;
-  -webkit-transform-origin: top !important;
-  -ms-transform-origin: top !important;
-  transform-origin: top !important;
 }
 
 <section>
