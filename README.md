@@ -1,5 +1,5 @@
 # Running
-* Install the dependencies using `yarn`.
+* Install the dependencies use `yarn`.
 * Create the live-reloading dev server: `yarn start`.
 * (In another terminal) Serve the static assets `yarn serve`.
 
